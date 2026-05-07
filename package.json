@@ -1,0 +1,41 @@
+{
+  "name": "trpg-soundboard-prototype",
+  "version": "0.2.0",
+  "description": "Windows TRPG soundboard",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack:win": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.trpg.soundboard.prototype",
+    "productName": "TRPG Soundboard",
+    "compression": "store",
+    "electronLanguages": [
+      "zh-CN",
+      "en-US"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "*.js",
+      "*.html",
+      "*.css",
+      "*.mp3",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ]
+    },
+    "portable": {
+      "useZip": true
+    }
+  },
+  "devDependencies": {
+    "electron": "^35.2.0",
+    "electron-builder": "^26.0.12"
+  }
+}

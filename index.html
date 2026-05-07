@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; media-src 'self' file:; script-src 'self'">
+  <title>TRPG Soundboard Prototype</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero">
+      <div class="hero-copywrap">
+        <p class="eyebrow">Windows Prototype</p>
+        <h1>TRPG 音效按钮板</h1>
+      </div>
+      <section class="hero-notes">
+        <p>1. 点一下播放或停止。按住按钮进入循环。</p>
+        <p>2. 空按钮点一下就能绑定你自己的音频。</p>
+        <p>3. 名字太长会自动截断，鼠标停留一会儿后会开始滚动显示完整名字。</p>
+      </section>
+      <div class="hero-actions">
+        <button id="stopAllButton" class="danger">全部停止</button>
+        <button id="addSlotButton" class="secondary">新增按钮</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="slotGrid" class="slot-grid"></section>
+    </main>
+
+    <footer class="status-bar">
+      <span id="statusText">准备就绪。</span>
+    </footer>
+  </div>
+
+  <script src="./renderer.js" defer></script>
+</body>
+</html>
