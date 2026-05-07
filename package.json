@@ -1,6 +1,6 @@
 {
   "name": "trpg-soundboard-prototype",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "Windows TRPG soundboard",
   "main": "main.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "build": {
     "appId": "com.trpg.soundboard.prototype",
     "productName": "TRPG Soundboard",
-    "compression": "store",
+    "compression": "maximum",
     "electronLanguages": [
       "zh-CN",
       "en-US"
@@ -30,9 +30,7 @@
         "portable"
       ]
     },
-    "portable": {
-      "useZip": true
-    }
+    "portable": {}
   },
   "devDependencies": {
     "electron": "^35.2.0",
