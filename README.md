@@ -1,10 +1,7 @@
-# AI Context
-
-本文档供 AI 助手阅读，描述项目当前状态和设计思路。
 
 ## 项目概览
 
-TRPG Soundboard 是一个 Windows 桌面音效按钮板，供跑团（TRPG）主持人播放背景音效。基于 Electron 35，纯 vanilla JS，零运行时依赖。
+TRPG Soundboard 是一个 Windows 桌面音效按钮板，供跑团（TRPG）主持人播放背景音效。基于 Electron 35，纯 vanilla JS，零运行时依赖。作者为蔡志远，全程依赖claude+deppseekv4制作。
 
 ### 当前版本
 
