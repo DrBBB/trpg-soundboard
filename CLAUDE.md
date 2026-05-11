@@ -46,4 +46,5 @@ npm run pack:win       # 打包 Windows portable 版到 dist/
 | 2026-05-07 | 搜索今日运势 | ✅ 已完成 — 用 WebFetch + DuckDuckGo HTML 搜索 |
 | 2026-05-07 | 解决没法联网搜索的问题 | ✅ 已完成 — 诊断：DeepSeek API 不支持 WebSearch 的 tool_choice，Tavily MCP 有内部 bug。改用 WebFetch + DuckDuckGo |
 | 2026-05-07 | 删除 Tavily，禁用 WebSearch，只用 WebFetch + DuckDuckGo | ✅ 已完成 — 已从项目 settings.local.json 移除权限，全局 .claude.json 卸载 Tavily MCP Server |
+| 2026-05-11 | 更新版本号至 0.2.0，新增折叠分组功能 | ✅ 已完成 — 按钮可归入可折叠分组，自由拖拽跨组/未分组移动，分组默认名「分组N」可重命名 |
 | 2026-05-07 | 统一所有音频响度（含用户链接音频） | ✅ 已完成 — 采样前 1MB 算 RMS，自动增益补偿。3 个内置音频预硬编码增益。零依赖。 |

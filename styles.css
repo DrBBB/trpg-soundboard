@@ -103,10 +103,149 @@ h1 {
 }
 
 .slot-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ungrouped-slots,
+.group-slots {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 16px;
-  align-items: stretch;
+}
+
+/* ── Group section ── */
+
+.group-section.collapsed .group-header {
+  border-radius: 16px;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px 16px 4px 4px;
+  background: var(--panel);
+  cursor: pointer;
+  user-select: none;
+  transition: background 120ms ease, border-radius 200ms ease;
+}
+
+.group-header:hover {
+  background: var(--panel-strong);
+}
+
+.group-collapse-icon {
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: var(--muted);
+  flex-shrink: 0;
+  transition: transform 250ms ease;
+}
+
+.group-section.collapsed .group-collapse-icon {
+  transform: rotate(-90deg);
+}
+
+.group-name {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.group-count {
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.group-add-btn,
+.group-rename-btn,
+.group-delete-btn {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 120ms ease, transform 120ms ease;
+}
+
+.group-add-btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.group-add-btn:hover {
+  background: var(--accent);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.group-rename-btn {
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 14px;
+}
+
+.group-rename-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.group-delete-btn {
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 20px;
+}
+
+.group-delete-btn:hover {
+  background: var(--danger);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* ── Collapse animation ── */
+
+.group-slots-wrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+  transition: grid-template-rows 300ms ease;
+  border: 1px solid var(--line);
+  border-top: none;
+  border-radius: 0 0 16px 16px;
+  background: rgba(15, 19, 26, 0.3);
+}
+
+.group-section.collapsed .group-slots-wrapper {
+  grid-template-rows: 0fr;
+  border: none;
+}
+
+.group-slots {
+  min-height: 0;
+  padding: 16px;
 }
 
 .slot-tile {
@@ -389,6 +528,93 @@ h1 {
   background: var(--danger-strong);
 }
 
+/* ── Modal dialog ── */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.modal-overlay[hidden] {
+  display: none;
+}
+
+.modal-box {
+  width: 380px;
+  max-width: 90vw;
+  padding: 28px 24px 20px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--panel);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
+}
+
+.modal-message {
+  margin: 0 0 18px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text);
+  text-align: center;
+}
+
+.modal-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15px;
+  outline: none;
+  transition: border-color 120ms ease;
+}
+
+.modal-input:focus {
+  border-color: var(--accent);
+}
+
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.modal-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+
+.modal-actions .secondary {
+  background: #283146;
+  color: var(--text);
+}
+
+.modal-actions .secondary:hover {
+  background: #313c55;
+}
+
+.modal-actions .danger {
+  background: var(--accent);
+  color: #0b0e13;
+  font-weight: 700;
+}
+
+.modal-actions .danger:hover {
+  background: var(--accent-strong);
+}
+
 @keyframes marquee-slide {
   from {
     transform: translateX(0);
@@ -417,13 +643,15 @@ h1 {
     max-width: none;
   }
 
-  .slot-grid {
+  .ungrouped-slots,
+  .group-slots {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 721px) and (max-width: 1024px) {
-  .slot-grid {
+  .ungrouped-slots,
+  .group-slots {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }

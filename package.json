@@ -1,6 +1,6 @@
 {
   "name": "trpg-soundboard-prototype",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Windows TRPG soundboard",
   "main": "main.js",
   "scripts": {

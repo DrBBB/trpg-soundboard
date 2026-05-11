@@ -2,6 +2,7 @@ const slotGrid = document.getElementById("slotGrid");
 const statusText = document.getElementById("statusText");
 const stopAllButton = document.getElementById("stopAllButton");
 const addSlotButton = document.getElementById("addSlotButton");
+const addGroupButton = document.getElementById("addGroupButton");
 
 const LONG_PRESS_MS = 1000;
 const LONG_PRESS_VISUAL_DELAY_MS = 200;
@@ -10,7 +11,7 @@ const NAME_SCROLL_DELAY_MS = 1000;
 const VOLUME_LEVELS = [1, 0.6, 0.3];
 const NORM_TARGET_RMS_DB = -23;
 const NORM_SAMPLE_BYTES = 1 * 1024 * 1024; // 前 1MB
-let config = { slots: [] };
+let config = { groups: [], slots: [] };
 
 const state = {
   activeLoops: new Map(),
@@ -31,7 +32,55 @@ function setStatus(message) {
   statusText.textContent = message;
 }
 
-function createEmptySlot() {
+function showModal(message, defaultValue, showInput) {
+  return new Promise(function (resolve) {
+    var overlay = document.getElementById("modalOverlay");
+    var msgEl = document.getElementById("modalMessage");
+    var inputEl = document.getElementById("modalInput");
+    var confirmBtn = document.getElementById("modalConfirm");
+    var cancelBtn = document.getElementById("modalCancel");
+
+    msgEl.textContent = message;
+    inputEl.value = defaultValue || "";
+    inputEl.hidden = !showInput;
+    confirmBtn.textContent = showInput ? "确定" : "确认";
+    cancelBtn.textContent = "取消";
+
+    overlay.hidden = false;
+    if (showInput) {
+      inputEl.focus();
+      inputEl.select();
+    } else {
+      confirmBtn.focus();
+    }
+
+    function cleanup() {
+      overlay.hidden = true;
+      confirmBtn.removeEventListener("click", onConfirm);
+      cancelBtn.removeEventListener("click", onCancel);
+    }
+
+    function onConfirm() {
+      cleanup();
+      resolve(showInput ? inputEl.value.trim() : true);
+    }
+
+    function onCancel() {
+      cleanup();
+      resolve(showInput ? null : false);
+    }
+
+    confirmBtn.addEventListener("click", onConfirm);
+    cancelBtn.addEventListener("click", onCancel);
+
+    inputEl.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") onConfirm();
+      if (e.key === "Escape") onCancel();
+    });
+  });
+}
+
+function createEmptySlot(groupId) {
   return {
     id: `slot-${crypto.randomUUID()}`,
     label: "",
@@ -40,8 +89,74 @@ function createEmptySlot() {
     missing: false,
     durationSec: null,
     volumeLevel: 1,
-    normGain: null
+    normGain: null,
+    groupId: groupId || null
   };
+}
+
+function getNextGroupName() {
+  var maxNum = 0;
+  config.groups.forEach(function (g) {
+    var match = g.name && g.name.match(/^分组(\d+)$/);
+    if (match) {
+      var n = parseInt(match[1], 10);
+      if (n > maxNum) maxNum = n;
+    }
+  });
+  return "分组" + (maxNum + 1);
+}
+
+function createGroup(name) {
+  return {
+    id: "group-" + crypto.randomUUID(),
+    name: name || getNextGroupName(),
+    collapsed: false
+  };
+}
+
+async function addGroup() {
+  var name = getNextGroupName();
+  config.groups.push(createGroup(name));
+  await saveConfig();
+  setStatus("已创建分组「" + name + "」。");
+}
+
+async function deleteGroup(groupId) {
+  var group = config.groups.find(function (g) { return g.id === groupId; });
+  if (!group) return;
+  config.slots.forEach(function (s) {
+    if (s.groupId === groupId) s.groupId = null;
+  });
+  config.groups = config.groups.filter(function (g) { return g.id !== groupId; });
+  await saveConfig();
+  setStatus("已删除分组「" + group.name + "」，按钮已释放到组外。");
+}
+
+async function renameGroup(groupId) {
+  var group = config.groups.find(function (g) { return g.id === groupId; });
+  if (!group) return;
+  var name = await showModal("请输入新名称：", group.name, true);
+  if (name === null) return;
+  if (!name) {
+    setStatus("分组名称不能为空。");
+    return;
+  }
+  group.name = name;
+  await saveConfig();
+  setStatus("分组已重命名为「" + trimmed + "」。");
+}
+
+async function toggleGroupCollapse(groupId) {
+  var group = config.groups.find(function (g) { return g.id === groupId; });
+  if (!group) return;
+  group.collapsed = !group.collapsed;
+  await saveConfig();
+}
+
+async function addSlotToGroup(groupId) {
+  config.slots.push(createEmptySlot(groupId));
+  await saveConfig();
+  setStatus("已在分组中新增空按钮。");
 }
 
 async function saveConfig() {
@@ -385,21 +500,58 @@ async function deleteSlot(slotId) {
   setStatus("已删除按钮。");
 }
 
-async function moveSlot(dragSlotId, targetSlotId) {
-  if (!dragSlotId || !targetSlotId || dragSlotId === targetSlotId) {
-    return;
-  }
+async function swapSlots(dragSlotId, targetSlotId) {
+  if (!dragSlotId || !targetSlotId || dragSlotId === targetSlotId) return;
 
-  const fromIndex = config.slots.findIndex((slot) => slot.id === dragSlotId);
-  const toIndex = config.slots.findIndex((slot) => slot.id === targetSlotId);
-  if (fromIndex < 0 || toIndex < 0) {
-    return;
-  }
+  var dragIdx = config.slots.findIndex(function (s) { return s.id === dragSlotId; });
+  var targetIdx = config.slots.findIndex(function (s) { return s.id === targetSlotId; });
+  if (dragIdx < 0 || targetIdx < 0) return;
 
-  const [movedSlot] = config.slots.splice(fromIndex, 1);
-  config.slots.splice(toIndex, 0, movedSlot);
+  var dragSlot = config.slots[dragIdx];
+  var targetSlot = config.slots[targetIdx];
+
+  // Swap positions in array
+  config.slots[dragIdx] = targetSlot;
+  config.slots[targetIdx] = dragSlot;
+
+  // Swap groupIds
+  var tempGroupId = dragSlot.groupId;
+  dragSlot.groupId = targetSlot.groupId;
+  targetSlot.groupId = tempGroupId;
+
   await saveConfig();
-  setStatus("已调整按钮顺序。");
+  setStatus("已调换按钮位置。");
+}
+
+async function insertSlotAt(dragSlotId, groupId, insertIdx) {
+  if (!dragSlotId) return;
+
+  var fromIndex = config.slots.findIndex(function (s) { return s.id === dragSlotId; });
+  if (fromIndex < 0) return;
+
+  var movedSlot = config.slots.splice(fromIndex, 1)[0];
+  movedSlot.groupId = groupId;
+
+  // Find slots in the target group (after removal)
+  var groupSlots = config.slots.filter(function (s) { return s.groupId === groupId; });
+
+  if (insertIdx >= groupSlots.length) {
+    // Append at end of group
+    if (groupSlots.length > 0) {
+      var lastIdx = config.slots.findIndex(function (s) { return s.id === groupSlots[groupSlots.length - 1].id; });
+      config.slots.splice(lastIdx + 1, 0, movedSlot);
+    } else {
+      config.slots.push(movedSlot);
+    }
+  } else {
+    // Insert before the slot at insertIdx
+    var refSlot = groupSlots[insertIdx];
+    var refIdx = config.slots.findIndex(function (s) { return s.id === refSlot.id; });
+    config.slots.splice(refIdx, 0, movedSlot);
+  }
+
+  await saveConfig();
+  setStatus(groupId === null ? "已将按钮移出分组。" : "已将按钮移入分组。");
 }
 
 function setupNameMarquee(tile, track) {
@@ -608,8 +760,26 @@ function attachDragHandlers(tile, slot) {
   tile.addEventListener("drop", async (event) => {
     event.preventDefault();
     tile.classList.remove("drag-target");
-    const dragSlotId = state.dragSlotId || (event.dataTransfer ? event.dataTransfer.getData("text/plain") : "");
-    await moveSlot(dragSlotId, slot.id);
+    var dragSlotId = state.dragSlotId || (event.dataTransfer ? event.dataTransfer.getData("text/plain") : "");
+    if (!dragSlotId || dragSlotId === slot.id) return;
+
+    var rect = tile.getBoundingClientRect();
+    var cx = rect.left + rect.width / 2;
+    var cy = rect.top + rect.height / 2;
+    var dx = Math.abs(event.clientX - cx) / (rect.width / 2);
+    var dy = Math.abs(event.clientY - cy) / (rect.height / 2);
+
+    if (dx < 0.9 && dy < 0.9) {
+      // Center 81% → swap
+      await swapSlots(dragSlotId, slot.id);
+    } else {
+      // Edge → gap insert
+      var container = tile.parentElement;
+      var tiles = Array.from(container.querySelectorAll(".slot-tile"));
+      var tileIdx = tiles.indexOf(tile);
+      var insertIdx = event.clientY > cy ? tileIdx + 1 : tileIdx;
+      await insertSlotAt(dragSlotId, slot.groupId, insertIdx);
+    }
   });
 }
 
@@ -739,25 +909,242 @@ function renderSlot(slot) {
   return tile;
 }
 
-function render() {
-  const existing = new Map();
-  slotGrid.querySelectorAll(".slot-tile").forEach(function (tile) {
-    existing.set(tile.dataset.slotId, tile);
+function renderGroupSection(group) {
+  var section = document.createElement("section");
+  section.className = "group-section";
+  section.dataset.groupId = group.id;
+  if (group.collapsed) section.classList.add("collapsed");
+
+  // Header
+  var header = document.createElement("div");
+  header.className = "group-header";
+
+  var collapseIcon = document.createElement("span");
+  collapseIcon.className = "group-collapse-icon";
+  collapseIcon.textContent = "▼";
+
+  var nameEl = document.createElement("span");
+  nameEl.className = "group-name";
+  nameEl.textContent = group.name;
+
+  var countEl = document.createElement("span");
+  countEl.className = "group-count";
+
+  var addBtn = document.createElement("button");
+  addBtn.type = "button";
+  addBtn.className = "group-add-btn";
+  addBtn.textContent = "+";
+  addBtn.title = "在此分组中添加按钮";
+
+  var renameBtn = document.createElement("button");
+  renameBtn.type = "button";
+  renameBtn.className = "group-rename-btn";
+  renameBtn.textContent = "✎";
+  renameBtn.title = "重命名分组";
+
+  var delBtn = document.createElement("button");
+  delBtn.type = "button";
+  delBtn.className = "group-delete-btn";
+  delBtn.textContent = "×";
+  delBtn.title = "删除分组";
+
+  header.append(collapseIcon, nameEl, countEl, addBtn, renameBtn, delBtn);
+
+  // Collapsible wrapper
+  var wrapper = document.createElement("div");
+  wrapper.className = "group-slots-wrapper";
+
+  var slotsContainer = document.createElement("div");
+  slotsContainer.className = "group-slots";
+  wrapper.appendChild(slotsContainer);
+
+  section.append(header, wrapper);
+
+  // Header click to toggle collapse
+  header.addEventListener("click", function (e) {
+    if (e.target.closest("button")) return;
+    toggleGroupCollapse(group.id);
   });
 
-  config.slots.forEach(function (slot) {
-    const tile = existing.get(slot.id);
+  // Header buttons
+  addBtn.addEventListener("click", async function (e) {
+    e.stopPropagation();
+    await addSlotToGroup(group.id);
+  });
+
+  renameBtn.addEventListener("click", async function (e) {
+    e.stopPropagation();
+    await renameGroup(group.id);
+  });
+
+  delBtn.addEventListener("click", async function (e) {
+    e.stopPropagation();
+    await deleteGroup(group.id);
+  });
+
+  // Group grid area as drop target (for dropping between buttons or into empty group)
+  slotsContainer.addEventListener("dragover", function (e) {
+    if (!state.dragSlotId) return;
+    // Only accept when not already over a specific tile (tiles handle their own dragover)
+    if (e.target.closest(".slot-tile")) return;
+    e.preventDefault();
+    if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
+  });
+
+  slotsContainer.addEventListener("drop", async function (e) {
+    // Only handle drops on the gap area, not on tiles (tiles have their own handler)
+    if (e.target.closest(".slot-tile")) return;
+    e.preventDefault();
+    var dragSlotId = state.dragSlotId || (e.dataTransfer ? e.dataTransfer.getData("text/plain") : "");
+    if (!dragSlotId) return;
+
+    // Find insert position based on Y
+    var tiles = Array.from(slotsContainer.querySelectorAll(".slot-tile"));
+    var insertIdx = tiles.length;
+    for (var i = 0; i < tiles.length; i++) {
+      var r = tiles[i].getBoundingClientRect();
+      if (e.clientY < r.top + r.height / 2) {
+        insertIdx = i;
+        break;
+      }
+    }
+    await insertSlotAt(dragSlotId, group.id, insertIdx);
+  });
+
+  return section;
+}
+
+function updateGroupHeader(section, group) {
+  section.classList.toggle("collapsed", group.collapsed);
+  var nameEl = section.querySelector(".group-name");
+  if (nameEl) nameEl.textContent = group.name;
+  var countEl = section.querySelector(".group-count");
+  if (countEl) {
+    var count = config.slots.filter(function (s) { return s.groupId === group.id; }).length;
+    countEl.textContent = count + " 个按钮";
+  }
+}
+
+function render() {
+  // Collect existing tiles
+  var existingTiles = new Map();
+  slotGrid.querySelectorAll(".slot-tile").forEach(function (tile) {
+    existingTiles.set(tile.dataset.slotId, tile);
+  });
+
+  // Collect existing group sections
+  var existingGroups = new Map();
+  slotGrid.querySelectorAll(".group-section").forEach(function (section) {
+    existingGroups.set(section.dataset.groupId, section);
+  });
+
+  // Get or create ungrouped container
+  var ungroupedContainer = slotGrid.querySelector(".ungrouped-slots");
+  if (!ungroupedContainer) {
+    ungroupedContainer = document.createElement("div");
+    ungroupedContainer.className = "ungrouped-slots";
+
+    // Drop handler for gap between ungrouped buttons
+    ungroupedContainer.addEventListener("dragover", function (e) {
+      if (!state.dragSlotId) return;
+      if (e.target.closest(".slot-tile")) return;
+      e.preventDefault();
+      if (e.dataTransfer) e.dataTransfer.dropEffect = "move";
+    });
+
+    ungroupedContainer.addEventListener("drop", async function (e) {
+      if (e.target.closest(".slot-tile")) return;
+      e.preventDefault();
+      var dragSlotId = state.dragSlotId || (e.dataTransfer ? e.dataTransfer.getData("text/plain") : "");
+      if (!dragSlotId) return;
+
+      var tiles = Array.from(ungroupedContainer.querySelectorAll(".slot-tile"));
+      var insertIdx = tiles.length;
+      for (var i = 0; i < tiles.length; i++) {
+        var r = tiles[i].getBoundingClientRect();
+        if (e.clientY < r.top + r.height / 2) {
+          insertIdx = i;
+          break;
+        }
+      }
+      await insertSlotAt(dragSlotId, null, insertIdx);
+    });
+  }
+
+  // Render ungrouped slots
+  var ungroupedSlots = config.slots.filter(function (s) { return !s.groupId; });
+  ungroupedSlots.forEach(function (slot, idx) {
+    var tile = existingTiles.get(slot.id);
     if (tile) {
-      existing.delete(slot.id);
+      existingTiles.delete(slot.id);
+      if (tile.parentElement !== ungroupedContainer) {
+        ungroupedContainer.appendChild(tile);
+      }
+      var expectedPos = ungroupedContainer.children[idx];
+      if (tile !== expectedPos) {
+        ungroupedContainer.insertBefore(tile, expectedPos || null);
+      }
       updateTile(tile, slot);
     } else {
-      slotGrid.appendChild(renderSlot(slot));
+      ungroupedContainer.appendChild(renderSlot(slot));
     }
   });
 
-  existing.forEach(function (tile) {
-    tile.remove();
+  // Position ungrouped container
+  if (ungroupedSlots.length > 0) {
+    if (!ungroupedContainer.parentElement) {
+      slotGrid.appendChild(ungroupedContainer);
+    }
+  } else {
+    if (ungroupedContainer.parentElement) {
+      ungroupedContainer.remove();
+    }
+  }
+
+  // Render groups in order
+  config.groups.forEach(function (group) {
+    var section = existingGroups.get(group.id);
+    if (section) {
+      existingGroups.delete(group.id);
+      updateGroupHeader(section, group);
+    } else {
+      section = renderGroupSection(group);
+    }
+    // Ensure correct DOM position
+    var currentIdx = Array.from(slotGrid.children).indexOf(section);
+    var expectedIdx = (ungroupedSlots.length > 0 ? 1 : 0) + config.groups.indexOf(group);
+    var ref = slotGrid.children[expectedIdx] || null;
+    if (section !== ref) {
+      slotGrid.insertBefore(section, ref);
+    }
+
+    // Render slots within group
+    var slotsContainer = section.querySelector(".group-slots");
+    var groupSlots = config.slots.filter(function (s) { return s.groupId === group.id; });
+
+    groupSlots.forEach(function (slot, idx) {
+      var tile = existingTiles.get(slot.id);
+      if (tile) {
+        existingTiles.delete(slot.id);
+        if (tile.parentElement !== slotsContainer) {
+          slotsContainer.appendChild(tile);
+        }
+        var expectedPos = slotsContainer.children[idx];
+        if (tile !== expectedPos) {
+          slotsContainer.insertBefore(tile, expectedPos || null);
+        }
+        updateTile(tile, slot);
+      } else {
+        slotsContainer.appendChild(renderSlot(slot));
+      }
+    });
   });
+
+  // Remove stale groups
+  existingGroups.forEach(function (section) { section.remove(); });
+
+  // Remove stale tiles
+  existingTiles.forEach(function (tile) { tile.remove(); });
 }
 
 async function initialize() {
@@ -802,10 +1189,12 @@ async function initialize() {
 stopAllButton.addEventListener("click", stopAll);
 
 addSlotButton.addEventListener("click", async () => {
-  config.slots.push(createEmptySlot());
+  config.slots.push(createEmptySlot(null));
   await saveConfig();
   setStatus("已新增空按钮。");
 });
+
+addGroupButton.addEventListener("click", addGroup);
 
 initialize().catch((error) => {
   console.error(error);

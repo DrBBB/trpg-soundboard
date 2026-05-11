@@ -14,6 +14,7 @@ function getBundledAudioPath(filename) {
 
 function getDefaultConfig() {
   return {
+    groups: [],
     slots: [
       {
         id: "slot-advanture",
@@ -23,7 +24,8 @@ function getDefaultConfig() {
         missing: false,
         durationSec: null,
         volumeLevel: 1,
-        normGain: 1.7479
+        normGain: 1.7479,
+        groupId: null
       },
       {
         id: "slot-carriage",
@@ -33,7 +35,8 @@ function getDefaultConfig() {
         missing: false,
         durationSec: null,
         volumeLevel: 1,
-        normGain: 4.0000
+        normGain: 4.0000,
+        groupId: null
       },
       {
         id: "slot-dooropen",
@@ -43,7 +46,8 @@ function getDefaultConfig() {
         missing: false,
         durationSec: null,
         volumeLevel: 1,
-        normGain: 0.5141
+        normGain: 0.5141,
+        groupId: null
       },
       ...Array.from({ length: 7 }, (_, index) => ({
         id: `slot-empty-${index + 1}`,
@@ -53,7 +57,8 @@ function getDefaultConfig() {
         missing: false,
         durationSec: null,
         volumeLevel: 1,
-        normGain: null
+        normGain: null,
+        groupId: null
       }))
     ]
   };
@@ -65,11 +70,26 @@ function normalizeConfig(config) {
     return fallback;
   }
 
+  const groups = Array.isArray(config.groups) ? config.groups.map((group, index) => {
+    const safe = group && typeof group === "object" ? group : {};
+    return {
+      id: typeof safe.id === "string" && safe.id ? safe.id : `group-${index + 1}`,
+      name: typeof safe.name === "string" && safe.name ? safe.name : `分组${index + 1}`,
+      collapsed: Boolean(safe.collapsed)
+    };
+  }) : [];
+
+  const validGroupIds = new Set(groups.map(function (g) { return g.id; }));
+
   return {
+    groups: groups,
     slots: config.slots.map((slot, index) => {
       const safeSlot = slot && typeof slot === "object" ? slot : {};
       const filePath = typeof safeSlot.filePath === "string" ? safeSlot.filePath : "";
       const sourceType = typeof safeSlot.sourceType === "string" ? safeSlot.sourceType : "empty";
+      const groupId = typeof safeSlot.groupId === "string" && validGroupIds.has(safeSlot.groupId)
+        ? safeSlot.groupId
+        : null;
       return {
         id: typeof safeSlot.id === "string" ? safeSlot.id : `slot-${index + 1}`,
         label: typeof safeSlot.label === "string" ? safeSlot.label : "",
@@ -80,7 +100,8 @@ function normalizeConfig(config) {
         volumeLevel: safeSlot.volumeLevel === 0.6 || safeSlot.volumeLevel === 0.3 ? safeSlot.volumeLevel : 1,
         normGain: (typeof safeSlot.normGain === "number" && Number.isFinite(safeSlot.normGain) && safeSlot.normGain > 0)
           ? safeSlot.normGain
-          : null
+          : null,
+        groupId: groupId
       };
     })
   };
