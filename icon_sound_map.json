@@ -1,0 +1,3113 @@
+{
+  "_meta": {
+    "total_icons": 446,
+    "total_sounds": 875,
+    "matched_sounds": 714,
+    "unmatched_icons": 181,
+    "unmatched_icon_list": [
+      "alarm_bell_icon.png",
+      "alarm_icon.png",
+      "alien_shriek_icon.png",
+      "applause_icon.png",
+      "arcane_spell_icon.png",
+      "archer_volley_icon.png",
+      "arrow_up_icon.png",
+      "beach_icon.png",
+      "bilge_pump_icon.png",
+      "bird_startle_icon.png",
+      "blaster2_multi_icon.png",
+      "blaster2_single_icon.png",
+      "blaster_multi_icon.png",
+      "blaster_single_icon.png",
+      "bone_chimes_icon.png",
+      "bow_single_icon.png",
+      "bow_wave_heavy_icon.png",
+      "bow_wave_light_icon.png",
+      "bow_wave_med_icon.png",
+      "bridge_icon.png",
+      "broken_key_icon.png",
+      "broom_icon.png",
+      "camel_icon.png",
+      "car_door_icon.png",
+      "car_horn_icon.png",
+      "car_traffic_icon.png",
+      "cel_phone_icon.png",
+      "champagne_icon.png",
+      "chugging_icon.png",
+      "coins_icon.png",
+      "columns_icon.png",
+      "computer_keyboard_icon.png",
+      "conjuring_icon.png",
+      "cube_icon.png",
+      "cups_dishes_icon.png",
+      "d20_icon.png",
+      "dagger_icon.png",
+      "data_comms_icon.png",
+      "decapitation_icon.png",
+      "door_open_icona.png",
+      "door_rain_icon.png",
+      "door_wind_icon.png",
+      "download_icon.png",
+      "dragon_land.png",
+      "elevator_icon.png",
+      "engine_on_icon.png",
+      "exclamation_icon.png",
+      "fan_icon.png",
+      "flame_strike_icon.png",
+      "flash_bulb_icon.png",
+      "flask_icon.png",
+      "flood_icon.png",
+      "forcefield_down_icon.png",
+      "forcefield_up_icon.png",
+      "frog_icon.png",
+      "furnace_icon.png",
+      "gadget_icon.png",
+      "garage_open_icon.png",
+      "gavel_icon.png",
+      "globe_icon.png",
+      "gnome_bomber_icon.png",
+      "gong_icon.png",
+      "guitar_icon.png",
+      "gunshot_icon.png",
+      "harbor_icon2.png",
+      "harpoon_gun_icon.png",
+      "healing_spell_icon.png",
+      "helmet_icon2.png",
+      "highway_icon.png",
+      "houses_icon.png",
+      "ice_crack_icon.png",
+      "ice_in_glass_icon.png",
+      "ice_spell_icon.png",
+      "iron_lung_icon.png",
+      "jacuzzi_icon.png",
+      "key_icon.png",
+      "knob_icon.png",
+      "lamp_post_icon.png",
+      "laser_turret_icon.png",
+      "leaf_drip_icon.png",
+      "light_sword_attack_icon.png",
+      "light_sword_fight_icon.png",
+      "light_sword_off_icon.png",
+      "light_sword_on_icon.png",
+      "little_girl_icon.png",
+      "magnifying_glass_icon.png",
+      "mangonel_icon.png",
+      "martini_icon.png",
+      "med_ship_icon.png",
+      "metal_teeth_icon.png",
+      "mosque_icon.png",
+      "motion_detected_icon.png",
+      "motion_tracker_icon.png",
+      "music_spell_icon.png",
+      "nat_1_icon.png",
+      "nat_20_icon.png",
+      "newspaper_shuffle_icon.png",
+      "pa_system_icon.png",
+      "pistol_icon2.png",
+      "piston_icon.png",
+      "pit_trap_icon.png",
+      "plane_down_icon.png",
+      "plane_icon.png",
+      "plasma_explosion_icon.png",
+      "poison_trap_icon.png",
+      "police_car_icon.png",
+      "police_radio_icon.png",
+      "portcullis_trap_icon.png",
+      "predator_swarm_icon.png",
+      "pressure_plate_icon.png",
+      "probe_droid_icon.png",
+      "radar_icon.png",
+      "rain_roof_icon.png",
+      "ratchet_icon.png",
+      "reload_icon.png",
+      "rigging_icon.png",
+      "rolling_market_icon.png",
+      "roll_initiative_icon.png",
+      "rust_monster_icon.png",
+      "sarcophagus_icon.png",
+      "scanner_droid_icon.png",
+      "servo_icon.png",
+      "shark_icon.png",
+      "sheriff_icon.png",
+      "siege_ladder_icon.png",
+      "signpost_icon.png",
+      "silencer_icon.png",
+      "skiing_icon.png",
+      "skydiving_icon.png",
+      "snare_drum_icon.png",
+      "sonar_icon.png",
+      "speedboat_icon.png",
+      "spike_trap_icon.png",
+      "spin_icon.png",
+      "stack_boxes_icon.png",
+      "staff_icon.png",
+      "starship_door_close_icon.png",
+      "starship_door_open_icon.png",
+      "starship_lg_door_close_icon.png",
+      "starship_lg_door_open_icon.png",
+      "steam_icon.png",
+      "sticks_icon.png",
+      "stim_pak_icon.png",
+      "stone_door_icon.png",
+      "stone_door_open_icon.png",
+      "stranger_icon.png",
+      "stun_gun_icon.png",
+      "subway_platform_icon.png",
+      "switch_icon.png",
+      "switch_off_icon.png",
+      "swoop_in_icon.png",
+      "swoop_out_icon.png",
+      "sword_icon.png",
+      "table_flip_icon.png",
+      "talon_icon.png",
+      "teapot_icon.png",
+      "teeth.png",
+      "tent_icon.png",
+      "terminal_denied_icon.png",
+      "text_icon.png",
+      "throwing_axe_icon.png",
+      "throwing_star_icon.png",
+      "thumbs_down_icon.png",
+      "thumbs_up_icon.png",
+      "tire_icon.png",
+      "tools_icon.png",
+      "torpedo_icon.png",
+      "trapdoor_close_icon.png",
+      "trapdoor_open_icon.png",
+      "typewriter_icon.png",
+      "unarmed_icon.png",
+      "valve_icon.png",
+      "velvet_rope_icon.png",
+      "waste_creature_icon.png",
+      "watch_icon2.png",
+      "whip_icon.png",
+      "window_break_icon.png",
+      "wind_roof_icon.png",
+      "winged_demon_icon.png",
+      "wolf_icon.png",
+      "wrecking_ball_icon.png"
+    ]
+  },
+  "pad_mappings": {
+    "age_of_sail": {
+      "beat_to_quarters_b": {
+        "icon": "atom_icon.png",
+        "score": 4
+      },
+      "below_decks2_b": {
+        "icon": "below_decks_icon.png",
+        "score": 10
+      },
+      "broadsides_x4": {
+        "icon": "broadside_icon.png",
+        "score": 4
+      },
+      "cannon_single_4x_b": {
+        "icon": "single_cannon_icon.png",
+        "score": 10
+      },
+      "cheer_x4": {
+        "icon": "cheer_icon.png",
+        "score": 10
+      },
+      "deck_fight_blades_b": {
+        "icon": "blades_icon.png",
+        "score": 10
+      },
+      "destruction_x4": {
+        "icon": "destruction_icon.png",
+        "score": 10
+      },
+      "drum_music_1c": {
+        "icon": "drum_icon.png",
+        "score": 10
+      },
+      "drunken_sailor_edit": {
+        "icon": "sail_icon.png",
+        "score": 4
+      },
+      "gale3a": {
+        "icon": "ale_icon.png",
+        "score": 4
+      },
+      "hoist_sail_b": {
+        "icon": "sail_icon.png",
+        "score": 10
+      },
+      "rain3_lp": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "rope_creaks_b": {
+        "icon": "rope_icon.png",
+        "score": 10
+      },
+      "sailors_active_b": {
+        "icon": "radioactive_icon.png",
+        "score": 4
+      },
+      "sails_flapping_b": {
+        "icon": "sail_icon.png",
+        "score": 4
+      },
+      "seawash_heavy2_b": {
+        "icon": "heavy_gate.png",
+        "score": 5
+      },
+      "seawash_light_b": {
+        "icon": "lighter_icon.png",
+        "score": 4
+      },
+      "seawash_med2_b": {
+        "icon": "med_beast_icon.png",
+        "score": 5
+      },
+      "siren_song_lp": {
+        "icon": "police_siren_icon.png",
+        "score": 5
+      },
+      "thunder2": {
+        "icon": "thunder_icon.png",
+        "score": 10
+      },
+      "wind_strong2_b": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      }
+    },
+    "alien_starship": {
+      "alien_action2": {
+        "icon": "alien_icon.png",
+        "score": 10
+      },
+      "alien_shriek_x4": {
+        "icon": "alien_icon.png",
+        "score": 10
+      },
+      "alien_storm2_lp": {
+        "icon": "alien_icon.png",
+        "score": 10
+      },
+      "computer_noises_lp": {
+        "icon": "computer_icon.png",
+        "score": 10
+      },
+      "creature_clicks_x4": {
+        "icon": "creature_approach_icon.png",
+        "score": 5
+      },
+      "creature_moving_lp": {
+        "icon": "creature_approach_icon.png",
+        "score": 5
+      },
+      "egg_sac_x4": {
+        "icon": "egg_hatch_icon.png",
+        "score": 5
+      },
+      "footsteps_bio_lp": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "footsteps_metal_lp": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "load_weapon": {
+        "icon": "assault_weapon_icon.png",
+        "score": 5
+      },
+      "low_chatter_x4": {
+        "icon": "blowgun_icon.png",
+        "score": 4
+      },
+      "metallic_drips_lp": {
+        "icon": "drips_icon2.png",
+        "score": 10
+      },
+      "mid_tone_lp": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "organic_noise_lp": {
+        "icon": "noise.png",
+        "score": 10
+      },
+      "skitter_x4": {
+        "icon": "alien_skitter_icon.png",
+        "score": 5
+      },
+      "string_tone1a": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "weapons_fire_x4": {
+        "icon": "fire.png",
+        "score": 10
+      },
+      "wind_int_lp": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wind_outside_lp": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      }
+    },
+    "ancient_greece": {
+      "Ancient_Greece-archers_draw": {
+        "icon": "bow_draw_icon.png",
+        "score": 5
+      },
+      "Ancient_Greece-arrow_shot1": {
+        "icon": "arrow_trap_icon.png",
+        "score": 5
+      },
+      "Ancient_Greece-arrow_shot2": {
+        "icon": "arrow_trap_icon.png",
+        "score": 5
+      },
+      "Ancient_Greece-battle_close_loop": {
+        "icon": "garage_close_icon.png",
+        "score": 5
+      },
+      "Ancient_Greece-battle_distant_loop": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "Ancient_Greece-chariot_race_loop": {
+        "icon": "chariot_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-city_gate_close": {
+        "icon": "garage_close_icon.png",
+        "score": 5
+      },
+      "Ancient_Greece-city_gate_open": {
+        "icon": "door_open_icon.png",
+        "score": 5
+      },
+      "Ancient_Greece-cultist_cavern_loop": {
+        "icon": "cave_icon.png",
+        "score": 4
+      },
+      "Ancient_Greece-distant_sea_loop": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "Ancient_Greece-drum_tone_loop": {
+        "icon": "drum_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-dulcimer_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Ancient_Greece-flute_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Ancient_Greece-garden_fountains_loop": {
+        "icon": "fountain_icon.png",
+        "score": 4
+      },
+      "Ancient_Greece-goat_farm_loop": {
+        "icon": "goat_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-harbor_loop": {
+        "icon": "harbor_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-hawk_attack1": {
+        "icon": "hawk_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-hawk_attack2": {
+        "icon": "hawk_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-music_ares_commands": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Ancient_Greece-music_dusk_over_delphi": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Ancient_Greece-music_far_from_home": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Ancient_Greece-phalanx_close_loop": {
+        "icon": "garage_close_icon.png",
+        "score": 5
+      },
+      "Ancient_Greece-phalanx_far_loop": {
+        "icon": "fanfare_icon.png",
+        "score": 4
+      },
+      "Ancient_Greece-shield_wall1": {
+        "icon": "shield_icon_a.png",
+        "score": 10
+      },
+      "Ancient_Greece-shield_wall2": {
+        "icon": "shield_icon_a.png",
+        "score": 10
+      },
+      "Ancient_Greece-shield_wall3": {
+        "icon": "shield_icon_a.png",
+        "score": 10
+      },
+      "Ancient_Greece-shield_wall4": {
+        "icon": "shield_icon_a.png",
+        "score": 10
+      },
+      "Ancient_Greece-spear_thrust1": {
+        "icon": "spear_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-spear_thrust2": {
+        "icon": "spear_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-spear_thrust3": {
+        "icon": "spear_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-spear_thrust4": {
+        "icon": "spear_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-temple_of_apollo_loop": {
+        "icon": "temple_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-training_loop": {
+        "icon": "rain_icon.png",
+        "score": 4
+      },
+      "Ancient_Greece-trireme_oars_loop": {
+        "icon": "trireme_oars_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-trireme_sailing_loop": {
+        "icon": "trireme_sail_icon.png",
+        "score": 7
+      },
+      "Ancient_Greece-vocal_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Ancient_Greece-warhammer1": {
+        "icon": "warhammer_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-warhammer2": {
+        "icon": "warhammer_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-warhammer3": {
+        "icon": "warhammer_icon.png",
+        "score": 10
+      },
+      "Ancient_Greece-warhammer4": {
+        "icon": "warhammer_icon.png",
+        "score": 10
+      }
+    },
+    "atlantis": {
+      "Atlantis-air_filled_chamber_loop": {
+        "icon": "air_bubbles_icon.png",
+        "score": 5
+      },
+      "Atlantis-blade_trap": {
+        "icon": "blade_trap_icon.png",
+        "score": 10
+      },
+      "Atlantis-bronze_door_close": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Atlantis-bronze_door_open": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Atlantis-chain_winch": {
+        "icon": "chain_saw_icon.png",
+        "score": 5
+      },
+      "Atlantis-chest_open": {
+        "icon": "chest_icon.png",
+        "score": 10
+      },
+      "Atlantis-creature_attack1": {
+        "icon": "acid_attack_icon.png",
+        "score": 5
+      },
+      "Atlantis-creature_attack2": {
+        "icon": "acid_attack_icon.png",
+        "score": 5
+      },
+      "Atlantis-creature_growl1": {
+        "icon": "creature_approach_icon.png",
+        "score": 5
+      },
+      "Atlantis-creature_growl2": {
+        "icon": "creature_approach_icon.png",
+        "score": 5
+      },
+      "Atlantis-crystalline_orb_loop": {
+        "icon": "crystal_icon.png",
+        "score": 4
+      },
+      "Atlantis-dry_stone_room_loop": {
+        "icon": "room_icon.png",
+        "score": 10
+      },
+      "Atlantis-kelp_forest_loop": {
+        "icon": "kelp_icon.png",
+        "score": 10
+      },
+      "Atlantis-lava_flow_loop": {
+        "icon": "lava_icon.png",
+        "score": 10
+      },
+      "Atlantis-lg_craft_engine_loop": {
+        "icon": "engine_icon.png",
+        "score": 10
+      },
+      "Atlantis-lg_hatch_close": {
+        "icon": "hatch_close.png",
+        "score": 10
+      },
+      "Atlantis-lg_hatch_open": {
+        "icon": "hatch_open.png",
+        "score": 10
+      },
+      "Atlantis-metal_groans_loop": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "Atlantis-music_deep_drums": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Atlantis-music_lost_city": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Atlantis-music_the_depths": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Atlantis-net_trap": {
+        "icon": "net_trap_icon.png",
+        "score": 10
+      },
+      "Atlantis-percussive_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Atlantis-rock_slide1": {
+        "icon": "rock_monster_icon.png",
+        "score": 5
+      },
+      "Atlantis-rock_slide2": {
+        "icon": "rock_monster_icon.png",
+        "score": 5
+      },
+      "Atlantis-sm_craft_engine_loop": {
+        "icon": "engine_icon.png",
+        "score": 10
+      },
+      "Atlantis-stone_door_close": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Atlantis-stone_door_open": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Atlantis-strings_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Atlantis-swim_constant_loop": {
+        "icon": "swim_icon.png",
+        "score": 10
+      },
+      "Atlantis-underwater_deep_loop": {
+        "icon": "water.png",
+        "score": 4
+      },
+      "Atlantis-underwater_mid_loop": {
+        "icon": "water.png",
+        "score": 4
+      },
+      "Atlantis-underwater_top_loop": {
+        "icon": "water.png",
+        "score": 4
+      },
+      "Atlantis-vocal_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Atlantis-water_portal": {
+        "icon": "water.png",
+        "score": 10
+      },
+      "Atlantis-water_rising_loop": {
+        "icon": "water.png",
+        "score": 10
+      },
+      "Atlantis-water_whoosh1": {
+        "icon": "water.png",
+        "score": 10
+      },
+      "Atlantis-water_whoosh2": {
+        "icon": "water.png",
+        "score": 10
+      },
+      "Atlantis-waves_surface_loop": {
+        "icon": "wave_icon.png",
+        "score": 4
+      }
+    },
+    "bleakwater_docks": {
+      "Bleakwater_Docks-bar_door": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-bell_tone_loop": {
+        "icon": "bell_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-bent_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Bleakwater_Docks-brooding_wind_loop": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-choral_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Bleakwater_Docks-cleaning_fish_loop": {
+        "icon": "dead_fish_icon.png",
+        "score": 5
+      },
+      "Bleakwater_Docks-crows_loop": {
+        "icon": "crow_icon.png",
+        "score": 4
+      },
+      "Bleakwater_Docks-dark_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Bleakwater_Docks-dark_wind_loop": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-diesel_engine_loop": {
+        "icon": "engine_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-dockside_bar_loop": {
+        "icon": "dock_icon.png",
+        "score": 8
+      },
+      "Bleakwater_Docks-dock_creaks_loop": {
+        "icon": "dock_icon.png",
+        "score": 14
+      },
+      "Bleakwater_Docks-eerie_ambience_loop": {
+        "icon": "dock_icon.png",
+        "score": 4
+      },
+      "Bleakwater_Docks-flies_loop": {
+        "icon": "dock_icon.png",
+        "score": 4
+      },
+      "Bleakwater_Docks-foghorn": {
+        "icon": "foghorn_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-footsteps_ambient_loop": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "Bleakwater_Docks-man_fishing": {
+        "icon": "fishing_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-misty_wind_loop": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-rain_on_roof_loop": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-rain_thunder_loop": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-rats_1": {
+        "icon": "rats.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-rats_2": {
+        "icon": "rats.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-rope_1": {
+        "icon": "rope_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-rope_2": {
+        "icon": "rope_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-scrape_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Bleakwater_Docks-seagulls_loop": {
+        "icon": "seagulls_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-ship_bell": {
+        "icon": "bell_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-squeaky_sign_loop": {
+        "icon": "tavern_sign_icon.png",
+        "score": 5
+      },
+      "Bleakwater_Docks-stacking_bottles": {
+        "icon": "dock_icon.png",
+        "score": 4
+      },
+      "Bleakwater_Docks-stacking_crates": {
+        "icon": "dock_icon.png",
+        "score": 4
+      },
+      "Bleakwater_Docks-warehouse_door_close": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-warehouse_door_open": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Bleakwater_Docks-warehouse_interior_loop": {
+        "icon": "dock_icon.png",
+        "score": 4
+      },
+      "Bleakwater_Docks-water_lapping_loop": {
+        "icon": "water.png",
+        "score": 14
+      }
+    },
+    "castle_raven": {
+      "bat_swarm_lp": {
+        "icon": "swarm_icon.png",
+        "score": 10
+      },
+      "cauldron_lp": {
+        "icon": "cauldron_icon.png",
+        "score": 10
+      },
+      "chains2_lp": {
+        "icon": "chains_icon.png",
+        "score": 10
+      },
+      "distant_doors2_lp": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "drawbridge": {
+        "icon": "drawbridge_icon.png",
+        "score": 10
+      },
+      "elevator": {
+        "icon": "elevator2_icon.png",
+        "score": 10
+      },
+      "footsteps_retreat": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "heavy_door_close": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "horror_tone_hi": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "laughter2_4x": {
+        "icon": "laughter_icon.png",
+        "score": 10
+      },
+      "laughter_female2": {
+        "icon": "laughter_icon.png",
+        "score": 10
+      },
+      "machinery": {
+        "icon": "machine_icon.png",
+        "score": 4
+      },
+      "metal_groans1_lp": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "organ_close1a": {
+        "icon": "garage_close_icon.png",
+        "score": 5
+      },
+      "organ_distant1b": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "quill_write_lp": {
+        "icon": "quill_icon.png",
+        "score": 10
+      },
+      "rope_creak_lp": {
+        "icon": "rope_icon.png",
+        "score": 10
+      },
+      "still_water_lp": {
+        "icon": "water.png",
+        "score": 10
+      },
+      "thunder_outside": {
+        "icon": "thunder_icon.png",
+        "score": 10
+      },
+      "trem_string_tone_lp": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "wall_torch_lp": {
+        "icon": "torch_icon.png",
+        "score": 10
+      },
+      "wood_groans2_lp": {
+        "icon": "distant_groans.png",
+        "score": 5
+      }
+    },
+    "combat": {
+      "attack_yell_x4a": {
+        "icon": "acid_attack_icon.png",
+        "score": 5
+      },
+      "bow_multi": {
+        "icon": "bow_multi_icon.png",
+        "score": 10
+      },
+      "earth_spell": {
+        "icon": "earth_spell_icon.png",
+        "score": 10
+      },
+      "horses_1": {
+        "icon": "horse_icon.png",
+        "score": 4
+      },
+      "nature_spell": {
+        "icon": "nature_spell_icon.png",
+        "score": 10
+      },
+      "sm_group": {
+        "icon": "crowd_sm.png",
+        "score": 5
+      },
+      "war_horn_1": {
+        "icon": "war_horn_icon.png",
+        "score": 10
+      }
+    },
+    "combat_future": {
+      "distant_explosions": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "energy_weapons_bg1": {
+        "icon": "energy_weapon_icon.png",
+        "score": 7
+      },
+      "flame_thrower1": {
+        "icon": "flame_thrower_icon.png",
+        "score": 10
+      },
+      "footsteps_metal_floor": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "grenade1": {
+        "icon": "grenade_icon.png",
+        "score": 10
+      },
+      "lg_group_bg1": {
+        "icon": "crowd_lg.png",
+        "score": 5
+      },
+      "light_saber1a": {
+        "icon": "lighter_icon.png",
+        "score": 4
+      },
+      "light_saber_4x": {
+        "icon": "lighter_icon.png",
+        "score": 4
+      },
+      "mech_sentry": {
+        "icon": "mech_icon.png",
+        "score": 10
+      },
+      "missile_launch1c": {
+        "icon": "missile_launch_icon.png",
+        "score": 10
+      },
+      "ship_landing1a": {
+        "icon": "ship_landing_icon.png",
+        "score": 10
+      },
+      "ship_takeoff": {
+        "icon": "ship_takeoff_icon.png",
+        "score": 10
+      },
+      "small_group2": {
+        "icon": "mall_icon.png",
+        "score": 4
+      },
+      "soldier_footsteps1": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      }
+    },
+    "combat_siege": {
+      "ballista_2x": {
+        "icon": "ballista_icon.png",
+        "score": 10
+      },
+      "battering_ram_x4": {
+        "icon": "battering_ram_icon.png",
+        "score": 10
+      },
+      "boiling_oil": {
+        "icon": "boiling_pitch_icon.png",
+        "score": 7
+      },
+      "bombardment": {
+        "icon": "bombardment_icon.png",
+        "score": 10
+      },
+      "burning2_lp": {
+        "icon": "burning_house_icon.png",
+        "score": 5
+      },
+      "catapult_x2": {
+        "icon": "cat_icon.png",
+        "score": 4
+      },
+      "cheers_x4a": {
+        "icon": "cheer_icon.png",
+        "score": 4
+      },
+      "choir_tone2_lp": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "close_combat_lp": {
+        "icon": "garage_close_icon.png",
+        "score": 5
+      },
+      "defensive_shouts_x4a": {
+        "icon": "shouts.png",
+        "score": 10
+      },
+      "distant_army_lp": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "distant_combat_lp": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "explosion_x2": {
+        "icon": "explosion_icon.png",
+        "score": 10
+      },
+      "horses_gallop_lp": {
+        "icon": "horse_icon.png",
+        "score": 4
+      },
+      "music1b": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music2": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music4a": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "offensive_shouts_x4a": {
+        "icon": "shouts.png",
+        "score": 10
+      },
+      "portcullis": {
+        "icon": "portcullis_icon.png",
+        "score": 10
+      },
+      "screams_x4a": {
+        "icon": "screams.png",
+        "score": 10
+      },
+      "siege_tower_fall2": {
+        "icon": "siege_tower_fall_icon.png",
+        "score": 10
+      },
+      "siege_tower_move": {
+        "icon": "siege_tower_icon.png",
+        "score": 10
+      },
+      "soldiers_march_2": {
+        "icon": "marching_icon.png",
+        "score": 4
+      },
+      "trebuchet_2x": {
+        "icon": "trebuchet_icon.png",
+        "score": 10
+      },
+      "trebuchet_dmg_x2": {
+        "icon": "trebuchet_icon.png",
+        "score": 10
+      },
+      "wall_collapse": {
+        "icon": "shield_wall_icon.png",
+        "score": 5
+      }
+    },
+    "cthulhu": {
+      "Cthulhu-clifftop_loop": {
+        "icon": "cliff_icon.png",
+        "score": 4
+      },
+      "Cthulhu-docks_loop": {
+        "icon": "dock_icon.png",
+        "score": 4
+      },
+      "Cthulhu-door_force_open": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Cthulhu-door_unlock": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Cthulhu-drawer_close": {
+        "icon": "desk_drawer_icon.png",
+        "score": 5
+      },
+      "Cthulhu-drawer_open": {
+        "icon": "desk_drawer_icon.png",
+        "score": 5
+      },
+      "Cthulhu-drum_tone_loop": {
+        "icon": "drum_icon.png",
+        "score": 10
+      },
+      "Cthulhu-foghorn": {
+        "icon": "foghorn_icon.png",
+        "score": 10
+      },
+      "Cthulhu-footsteps_docks_loop": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "Cthulhu-footsteps_wood_loop": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "Cthulhu-grandfather_clock_loop": {
+        "icon": "clock_icon.png",
+        "score": 10
+      },
+      "Cthulhu-hospital_loop": {
+        "icon": "hospital_icon.png",
+        "score": 10
+      },
+      "Cthulhu-lantern_loop": {
+        "icon": "lantern_icon.png",
+        "score": 10
+      },
+      "Cthulhu-manor_house_loop": {
+        "icon": "house_icon.png",
+        "score": 10
+      },
+      "Cthulhu-metal_bangs1": {
+        "icon": "metal_cart_icon.png",
+        "score": 5
+      },
+      "Cthulhu-metal_bangs2": {
+        "icon": "metal_cart_icon.png",
+        "score": 5
+      },
+      "Cthulhu-metal_cart": {
+        "icon": "cart_icon.png",
+        "score": 10
+      },
+      "Cthulhu-metal_tone_loop2": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Cthulhu-music_awaken": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Cthulhu-music_disorient": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Cthulhu-music_trapped": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Cthulhu-old_phone": {
+        "icon": "phone_icon.png",
+        "score": 10
+      },
+      "Cthulhu-open_file": {
+        "icon": "file_icon.png",
+        "score": 10
+      },
+      "Cthulhu-panic_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Cthulhu-pistol_shot": {
+        "icon": "pistol_icon.png",
+        "score": 10
+      },
+      "Cthulhu-rain_on_window_loop": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "Cthulhu-scrape_tone": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Cthulhu-sleeping_old_one_loop": {
+        "icon": "old_car_icon.png",
+        "score": 5
+      },
+      "Cthulhu-torch": {
+        "icon": "torch_icon.png",
+        "score": 10
+      },
+      "Cthulhu-warehouse_door": {
+        "icon": "door_icon.png",
+        "score": 10
+      }
+    },
+    "darkforest": {
+      "campfire1_lp": {
+        "icon": "campfire_icon.png",
+        "score": 10
+      },
+      "cicada1_lp": {
+        "icon": "cicada_icon.png",
+        "score": 10
+      },
+      "distant_drums1_lp": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "dogs_barking": {
+        "icon": "dog_bark_icon.png",
+        "score": 4
+      },
+      "footsteps1_lp": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "hawk1": {
+        "icon": "hawk_icon.png",
+        "score": 10
+      },
+      "horsecart1_lp": {
+        "icon": "cart_icon.png",
+        "score": 4
+      },
+      "horses1_lp": {
+        "icon": "horse_icon.png",
+        "score": 4
+      },
+      "music_eerie_flute1": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music_forest_action1": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music_forest_combat1": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "owl2": {
+        "icon": "owl_icon.png",
+        "score": 10
+      },
+      "rain1_lp": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "rain2_lp": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "rain3_lp": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "scared_horses2": {
+        "icon": "scared_horse_icon.png",
+        "score": 7
+      },
+      "spirit_breath1": {
+        "icon": "spirit_icon.png",
+        "score": 10
+      },
+      "thunder1": {
+        "icon": "thunder_icon.png",
+        "score": 10
+      },
+      "thunder2": {
+        "icon": "thunder_icon.png",
+        "score": 10
+      },
+      "trees_fall1": {
+        "icon": "tree_fall_icon.png",
+        "score": 7
+      },
+      "wind1_lp": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wind2_lp": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wolf_howl1": {
+        "icon": "wolf2_icon.png",
+        "score": 10
+      }
+    },
+    "deep_six": {
+      "action_music1a_lp": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "bubbles_bg": {
+        "icon": "bubbles.png",
+        "score": 10
+      },
+      "bubbles_eq_lp": {
+        "icon": "bubbles.png",
+        "score": 10
+      },
+      "computer_typing2": {
+        "icon": "computer_icon.png",
+        "score": 10
+      },
+      "drips3_lp": {
+        "icon": "drips_icon2.png",
+        "score": 10
+      },
+      "electrical_arcing2a": {
+        "icon": "electrical_icon.png",
+        "score": 10
+      },
+      "explosion_2x": {
+        "icon": "explosion_icon.png",
+        "score": 10
+      },
+      "footsteps_deckplates_lp": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "footsteps_splash_lp": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "hi_tone1": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "metal_groans2b_lp": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "metal_knock": {
+        "icon": "metal_cart_icon.png",
+        "score": 5
+      },
+      "metal_noises_verb2a_lp": {
+        "icon": "metal_noise_icon.png",
+        "score": 7
+      },
+      "ominous_music1c": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "radio_music": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "respirator2": {
+        "icon": "respirator_icon.png",
+        "score": 10
+      },
+      "rushing_water2_lp": {
+        "icon": "water.png",
+        "score": 10
+      },
+      "stealth_music2a_lp": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "whale_song1": {
+        "icon": "whale_icon.png",
+        "score": 10
+      }
+    },
+    "desert_planet": {
+      "beast_of_burdenx3": {
+        "icon": "lg_beast_icon.png",
+        "score": 5
+      },
+      "birds_insects1": {
+        "icon": "bird_icon.png",
+        "score": 4
+      },
+      "boiling_sand": {
+        "icon": "boiling_pitch_icon.png",
+        "score": 5
+      },
+      "call_to_prayer": {
+        "icon": "prayer_icon.png",
+        "score": 10
+      },
+      "cart_lp": {
+        "icon": "cart_icon.png",
+        "score": 10
+      },
+      "cheers": {
+        "icon": "cheer_icon.png",
+        "score": 4
+      },
+      "distant_predators": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "duduk_tone_lp": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "feast_lp": {
+        "icon": "feast_icon.png",
+        "score": 10
+      },
+      "great_worm_attackx2": {
+        "icon": "sandworm_icon.png",
+        "score": 4
+      },
+      "magic1": {
+        "icon": "magic_trap_icon.png",
+        "score": 5
+      },
+      "market_voices2_lp": {
+        "icon": "market_icon.png",
+        "score": 10
+      },
+      "massive_stone_door": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "music1": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music2": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music3": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "oasis_water": {
+        "icon": "water.png",
+        "score": 10
+      },
+      "snake_pit_lp": {
+        "icon": "snake_icon.png",
+        "score": 10
+      },
+      "string_tone": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "temple_bells": {
+        "icon": "temple_icon.png",
+        "score": 10
+      },
+      "temple_interior": {
+        "icon": "temple_icon.png",
+        "score": 10
+      },
+      "wind2": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wind3b": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wind_bluster2": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      }
+    },
+    "dm_tools": {
+      "dice_pool_x4": {
+        "icon": "dice_icon.png",
+        "score": 10
+      },
+      "long_rest": {
+        "icon": "longship_icon.png",
+        "score": 4
+      },
+      "tavern_bg": {
+        "icon": "tavern_sign_icon.png",
+        "score": 5
+      }
+    },
+    "dungeon": {
+      "bats": {
+        "icon": "bats_icon.png",
+        "score": 10
+      },
+      "bubbles": {
+        "icon": "bubbles.png",
+        "score": 10
+      },
+      "creature1": {
+        "icon": "creature_approach_icon.png",
+        "score": 5
+      },
+      "door_close": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "door_open": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "drips1_lp": {
+        "icon": "drips_icon2.png",
+        "score": 10
+      },
+      "drums2": {
+        "icon": "drum_icon.png",
+        "score": 4
+      },
+      "footsteps": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "hi_tone_1": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "hi_tone_2": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "low_tone1": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "music_1": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music_3a": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "ooze": {
+        "icon": "ooze.png",
+        "score": 10
+      },
+      "rats": {
+        "icon": "rats.png",
+        "score": 10
+      },
+      "roar": {
+        "icon": "dino_roar.png",
+        "score": 5
+      },
+      "rumble": {
+        "icon": "rumble_icon.png",
+        "score": 10
+      },
+      "screams": {
+        "icon": "screams.png",
+        "score": 10
+      },
+      "steam_release": {
+        "icon": "steam.png",
+        "score": 10
+      },
+      "tone3": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "torches": {
+        "icon": "torch_icon.png",
+        "score": 4
+      }
+    },
+    "film_noir": {
+      "angry_crowd": {
+        "icon": "crowd_lg.png",
+        "score": 5
+      },
+      "courtroom_background": {
+        "icon": "courtroom_icon.png",
+        "score": 10
+      },
+      "footsteps_boots2": {
+        "icon": "boots.png",
+        "score": 10
+      },
+      "footsteps_heels2": {
+        "icon": "high_heels_icon.png",
+        "score": 5
+      },
+      "music_melancholy1a": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "on_subway": {
+        "icon": "subway_icon.png",
+        "score": 10
+      },
+      "police_scanner_lp": {
+        "icon": "hand_scanner_icon.png",
+        "score": 5
+      },
+      "rain_street": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "restaurant_background": {
+        "icon": "restaurant_icon.png",
+        "score": 10
+      },
+      "search_desk": {
+        "icon": "desk_drawer_icon.png",
+        "score": 5
+      },
+      "siren2": {
+        "icon": "police_siren_icon.png",
+        "score": 5
+      },
+      "sting_orchestral": {
+        "icon": "chest_icon.png",
+        "score": 4
+      },
+      "subway_platform": {
+        "icon": "subway_icon.png",
+        "score": 10
+      },
+      "traffic1": {
+        "icon": "air_traffic_icon.png",
+        "score": 5
+      },
+      "traffic_wet": {
+        "icon": "air_traffic_icon.png",
+        "score": 5
+      },
+      "train_station_crowd": {
+        "icon": "crowd_lg.png",
+        "score": 5
+      },
+      "windshield_wipers": {
+        "icon": "windshield_wipers_icon.png",
+        "score": 10
+      }
+    },
+    "future_city": {
+      "car_traffic1": {
+        "icon": "car_icon.png",
+        "score": 10
+      },
+      "club_music_insidea": {
+        "icon": "club_icon.png",
+        "score": 10
+      },
+      "club_music_outside": {
+        "icon": "club_icon.png",
+        "score": 10
+      },
+      "distant_traffic2b": {
+        "icon": "air_traffic_icon.png",
+        "score": 5
+      },
+      "dogs_barking": {
+        "icon": "dog_bark_icon.png",
+        "score": 4
+      },
+      "drone_chimes": {
+        "icon": "chimes_icon.png",
+        "score": 10
+      },
+      "drums1": {
+        "icon": "drum_icon.png",
+        "score": 4
+      },
+      "fan_blades2": {
+        "icon": "blades_icon.png",
+        "score": 10
+      },
+      "footsteps_city1": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "hi_synth1a": {
+        "icon": "chicken_icon.png",
+        "score": 4
+      },
+      "large_ship_pass": {
+        "icon": "lg_ship_icon.png",
+        "score": 5
+      },
+      "lightning_strike_2x": {
+        "icon": "air_strike_icon.png",
+        "score": 5
+      },
+      "low_strings1": {
+        "icon": "blowgun_icon.png",
+        "score": 4
+      },
+      "maglev_in": {
+        "icon": "maglev_icon.png",
+        "score": 10
+      },
+      "maglev_out": {
+        "icon": "maglev_icon.png",
+        "score": 10
+      },
+      "market_districta": {
+        "icon": "market_icon.png",
+        "score": 10
+      },
+      "med_strings1a": {
+        "icon": "med_beast_icon.png",
+        "score": 5
+      },
+      "metal_gate": {
+        "icon": "metal_gate_icon.png",
+        "score": 10
+      },
+      "police_car": {
+        "icon": "car_icon.png",
+        "score": 10
+      },
+      "protest": {
+        "icon": "protest_icon.png",
+        "score": 10
+      },
+      "rain2": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "single_car_pass": {
+        "icon": "car_icon.png",
+        "score": 10
+      },
+      "street_noises": {
+        "icon": "street_icon.png",
+        "score": 10
+      },
+      "traffic1a_less": {
+        "icon": "air_traffic_icon.png",
+        "score": 5
+      },
+      "transformer_electric": {
+        "icon": "electrical_icon.png",
+        "score": 4
+      },
+      "urban_rain": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "wind1a": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wind_1a": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      }
+    },
+    "hell_planet": {
+      "bomb_minion_x2": {
+        "icon": "bombardment_icon.png",
+        "score": 4
+      },
+      "chain_blade1": {
+        "icon": "blade_trap_icon.png",
+        "score": 5
+      },
+      "cutting_blade2a": {
+        "icon": "cutting_blade_icon.png",
+        "score": 10
+      },
+      "dark_wind1_lp": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "destruction1": {
+        "icon": "destruction_icon.png",
+        "score": 10
+      },
+      "distant_chaos_lp": {
+        "icon": "chaos_icon.png",
+        "score": 10
+      },
+      "distant_crowds_lp": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "distant_demons_lp": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "engine_2a_drive_lp": {
+        "icon": "engine_icon.png",
+        "score": 10
+      },
+      "engine_drive_a_lp": {
+        "icon": "engine_icon.png",
+        "score": 10
+      },
+      "engine_rev_x4": {
+        "icon": "engine_icon.png",
+        "score": 10
+      },
+      "explosion_x2": {
+        "icon": "explosion_icon.png",
+        "score": 10
+      },
+      "fireballs_incoming_x4": {
+        "icon": "incoming_arrows_icon.png",
+        "score": 5
+      },
+      "motorbike_1_lp": {
+        "icon": "motorbike_icon.png",
+        "score": 10
+      },
+      "moto_bg_lp": {
+        "icon": "motorbike_icon.png",
+        "score": 4
+      },
+      "music1a": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music5": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music_bass_riff_oz": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "pillar_of_skulls_lp": {
+        "icon": "skulls_icon.png",
+        "score": 10
+      },
+      "portal1a": {
+        "icon": "water_portal_icon.png",
+        "score": 5
+      },
+      "tire_noise": {
+        "icon": "noise.png",
+        "score": 10
+      },
+      "turret_shot_x2": {
+        "icon": "turret_icon.png",
+        "score": 10
+      },
+      "war_drums2": {
+        "icon": "war_horn_icon.png",
+        "score": 5
+      },
+      "wheeled_market_2a_lp": {
+        "icon": "market_icon.png",
+        "score": 10
+      },
+      "winged_demon2_lp": {
+        "icon": "demon_icon.png",
+        "score": 10
+      }
+    },
+    "house_on_the_hill": {
+      "bellpad1": {
+        "icon": "bell_icon.png",
+        "score": 4
+      },
+      "bellpad2": {
+        "icon": "bell_icon.png",
+        "score": 4
+      },
+      "children_laugh": {
+        "icon": "children_icon.png",
+        "score": 10
+      },
+      "clockchime": {
+        "icon": "chime_icon.png",
+        "score": 4
+      },
+      "fireplace_loop_c": {
+        "icon": "fireplace_icon.png",
+        "score": 10
+      },
+      "footsteps2x": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "footsteps_limping": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "house_rattle_a": {
+        "icon": "house_icon.png",
+        "score": 10
+      },
+      "music_box": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "rain_outside": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "scream_hit_ax4": {
+        "icon": "screams.png",
+        "score": 4
+      },
+      "thunder1": {
+        "icon": "thunder_icon.png",
+        "score": 10
+      },
+      "thunder2": {
+        "icon": "thunder_icon.png",
+        "score": 10
+      },
+      "toy_trains": {
+        "icon": "toy_train_icon.png",
+        "score": 7
+      },
+      "treble_tone1": {
+        "icon": "treble_tone.png",
+        "score": 10
+      },
+      "vortex": {
+        "icon": "vortex_icon.png",
+        "score": 10
+      },
+      "wail": {
+        "icon": "wailing_icon.png",
+        "score": 4
+      },
+      "wind_outside": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      }
+    },
+    "ice_planet": {
+      "choir3all_lp": {
+        "icon": "ballista_icon.png",
+        "score": 4
+      },
+      "coldfire_lp": {
+        "icon": "fire.png",
+        "score": 4
+      },
+      "distant_howls": {
+        "icon": "distant_howls.png",
+        "score": 10
+      },
+      "frost_giant_footsteps": {
+        "icon": "giant_foot_icon.png",
+        "score": 7
+      },
+      "frost_spider_idle_lp": {
+        "icon": "spider_icon.png",
+        "score": 10
+      },
+      "horse_snow_canter": {
+        "icon": "horse_icon.png",
+        "score": 10
+      },
+      "horse_snow_walk": {
+        "icon": "horse_icon.png",
+        "score": 10
+      },
+      "humanoid_camp": {
+        "icon": "humanoid_icon.png",
+        "score": 10
+      },
+      "ice_axe": {
+        "icon": "ice_axe_icon.png",
+        "score": 10
+      },
+      "ice_creaking_lp": {
+        "icon": "ice_axe_icon.png",
+        "score": 5
+      },
+      "ice_creaking_x4": {
+        "icon": "ice_axe_icon.png",
+        "score": 5
+      },
+      "lightning_pillars_lp": {
+        "icon": "lightning_pillars_icon.png",
+        "score": 10
+      },
+      "music1": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music2": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "singing_crystal_lp": {
+        "icon": "crystal_icon.png",
+        "score": 10
+      },
+      "snow_boulder_roll": {
+        "icon": "boulder_icon.png",
+        "score": 10
+      },
+      "tone1_lp": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "torch_lp": {
+        "icon": "torch_icon.png",
+        "score": 10
+      },
+      "whisper_wind": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wind_howl": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wind_tundra": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wolfpack_growl_lp": {
+        "icon": "owl_icon.png",
+        "score": 4
+      },
+      "wolf_attack_x4": {
+        "icon": "wolf2_icon.png",
+        "score": 10
+      }
+    },
+    "jungle_planet": {
+      "birds1": {
+        "icon": "bird_icon.png",
+        "score": 4
+      },
+      "birds2": {
+        "icon": "bird_icon.png",
+        "score": 4
+      },
+      "close_growls2_x4": {
+        "icon": "garage_close_icon.png",
+        "score": 5
+      },
+      "creature_approach": {
+        "icon": "creature_approach_icon.png",
+        "score": 10
+      },
+      "didgeridoo_tone_lp": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "distant_howls_x4": {
+        "icon": "distant_howls.png",
+        "score": 10
+      },
+      "distant_vocals_lp": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "flute_tone2_lp": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "footsteps_jungle": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "howlers": {
+        "icon": "howler_icon.png",
+        "score": 4
+      },
+      "huge_footsteps": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 10
+      },
+      "lg_waterfall": {
+        "icon": "waterfall_icon.png",
+        "score": 10
+      },
+      "low_breath": {
+        "icon": "blowgun_icon.png",
+        "score": 4
+      },
+      "mosquito": {
+        "icon": "mosquito_icon.png",
+        "score": 10
+      },
+      "music2a": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music3a": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "ominous_wind": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "primates": {
+        "icon": "primates_icon.png",
+        "score": 10
+      },
+      "primates_near_lp2": {
+        "icon": "primates_icon.png",
+        "score": 10
+      },
+      "raindrops": {
+        "icon": "rain_icon.png",
+        "score": 4
+      },
+      "sm_drum_lp2": {
+        "icon": "drum_icon.png",
+        "score": 10
+      },
+      "torch": {
+        "icon": "torch_icon.png",
+        "score": 10
+      },
+      "waterfall": {
+        "icon": "waterfall_icon.png",
+        "score": 10
+      },
+      "wind1": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      }
+    },
+    "monsters": {
+      "beholder_attack_x4": {
+        "icon": "beholder_icon.png",
+        "score": 10
+      },
+      "construct_attack_3x": {
+        "icon": "construct_icon.png",
+        "score": 10
+      },
+      "construct_idle_lp": {
+        "icon": "construct_icon.png",
+        "score": 10
+      },
+      "dragon_attack_x3": {
+        "icon": "dragon_icon.png",
+        "score": 10
+      },
+      "dragon_idle_lp": {
+        "icon": "dragon_icon.png",
+        "score": 10
+      },
+      "elemental_attack_x3": {
+        "icon": "elemental_icon.png",
+        "score": 10
+      },
+      "elemental_idle_lp": {
+        "icon": "elemental_icon.png",
+        "score": 10
+      },
+      "goblins_idle_lp": {
+        "icon": "goblin_icon.png",
+        "score": 4
+      },
+      "goblin_attack_x4": {
+        "icon": "goblin_icon.png",
+        "score": 10
+      },
+      "humanoid_attack_x4": {
+        "icon": "humanoid_icon.png",
+        "score": 10
+      },
+      "large_beast_attack": {
+        "icon": "acid_attack_icon.png",
+        "score": 5
+      },
+      "large_beast_idle": {
+        "icon": "lg_beast_icon.png",
+        "score": 5
+      },
+      "medium_beast_attack_a3x": {
+        "icon": "med_beast_icon.png",
+        "score": 7
+      },
+      "medium_beast_idle_lp": {
+        "icon": "med_beast_icon.png",
+        "score": 7
+      },
+      "ooze_idle": {
+        "icon": "ooze.png",
+        "score": 10
+      },
+      "rock_monster_attack_a_3x": {
+        "icon": "monster.png",
+        "score": 10
+      },
+      "rock_monster_idle_lp": {
+        "icon": "monster.png",
+        "score": 10
+      },
+      "rust_monster_attack_x3": {
+        "icon": "monster.png",
+        "score": 10
+      },
+      "rust_monster_idle_lp": {
+        "icon": "monster.png",
+        "score": 10
+      },
+      "skeleton_attack_b_x4": {
+        "icon": "skeleton_icon.png",
+        "score": 10
+      },
+      "skeleton_idle2": {
+        "icon": "skeleton_icon.png",
+        "score": 10
+      },
+      "small_beast_idle_lp": {
+        "icon": "sm_beast_icon.png",
+        "score": 7
+      },
+      "spider_attack_x3": {
+        "icon": "spider_icon.png",
+        "score": 10
+      },
+      "spider_idle_lp": {
+        "icon": "spider_icon.png",
+        "score": 10
+      },
+      "swarm_idle": {
+        "icon": "swarm_icon.png",
+        "score": 10
+      },
+      "undead_attack_a_x3": {
+        "icon": "undead_icon.png",
+        "score": 10
+      },
+      "undead_idle_a": {
+        "icon": "undead_icon.png",
+        "score": 10
+      }
+    },
+    "olde_towne": {
+      "birdsong2": {
+        "icon": "bird_icon.png",
+        "score": 4
+      },
+      "blacksmith1": {
+        "icon": "blacksmith_icon.png",
+        "score": 10
+      },
+      "boat_in_harbor2": {
+        "icon": "boat_icon.png",
+        "score": 10
+      },
+      "celtic_harp_choir2": {
+        "icon": "harp_icon.png",
+        "score": 10
+      },
+      "chickens1a": {
+        "icon": "chicken_icon.png",
+        "score": 4
+      },
+      "church_bell": {
+        "icon": "bell_icon.png",
+        "score": 10
+      },
+      "construction": {
+        "icon": "construction_icon.png",
+        "score": 10
+      },
+      "cows1a": {
+        "icon": "cow_icon.png",
+        "score": 4
+      },
+      "crickets2": {
+        "icon": "cricket_icon.png",
+        "score": 4
+      },
+      "crowd_cheer2": {
+        "icon": "cheer_icon.png",
+        "score": 10
+      },
+      "dogs_barking": {
+        "icon": "dog_bark_icon.png",
+        "score": 4
+      },
+      "dragon2": {
+        "icon": "dragon_icon.png",
+        "score": 10
+      },
+      "dragon_away": {
+        "icon": "dragon_away.png",
+        "score": 10
+      },
+      "fanfare1": {
+        "icon": "fanfare_icon.png",
+        "score": 10
+      },
+      "flag_wind": {
+        "icon": "flag_icon.png",
+        "score": 10
+      },
+      "foot_traffic": {
+        "icon": "air_traffic_icon.png",
+        "score": 5
+      },
+      "fountain2": {
+        "icon": "fountain_icon.png",
+        "score": 10
+      },
+      "gate": {
+        "icon": "heavy_gate.png",
+        "score": 5
+      },
+      "horse_carts": {
+        "icon": "horse_icon.png",
+        "score": 10
+      },
+      "horse_traffic2": {
+        "icon": "horse_icon.png",
+        "score": 10
+      },
+      "hurdy_gurdy2": {
+        "icon": "hurdy_gurdy_icon.png",
+        "score": 10
+      },
+      "lg_group_voices_a": {
+        "icon": "crowd_lg.png",
+        "score": 5
+      },
+      "rain1_lp": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "sm_group_voices_1a": {
+        "icon": "crowd_sm.png",
+        "score": 5
+      },
+      "thunder1": {
+        "icon": "thunder_icon.png",
+        "score": 10
+      },
+      "tone2": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "tone3": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "wind_1a": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      }
+    },
+    "sanctum": {
+      "Sanctum-bass_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 10
+      },
+      "Sanctum-brimstone_pool_loop": {
+        "icon": "stone_icon.png",
+        "score": 4
+      },
+      "Sanctum-catacombs_loop": {
+        "icon": "cat_icon.png",
+        "score": 4
+      },
+      "Sanctum-choir_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Sanctum-church_bell_peal_loop": {
+        "icon": "bell_icon.png",
+        "score": 10
+      },
+      "Sanctum-church_bell_single": {
+        "icon": "bell_icon.png",
+        "score": 10
+      },
+      "Sanctum-crow_1": {
+        "icon": "crow_icon.png",
+        "score": 10
+      },
+      "Sanctum-crow_2": {
+        "icon": "crow_icon.png",
+        "score": 10
+      },
+      "Sanctum-cultists_prayer_loop": {
+        "icon": "prayer_icon.png",
+        "score": 10
+      },
+      "Sanctum-demon_voice_1": {
+        "icon": "demon_icon.png",
+        "score": 10
+      },
+      "Sanctum-demon_voice_2": {
+        "icon": "demon_icon.png",
+        "score": 10
+      },
+      "Sanctum-demon_voice_3": {
+        "icon": "demon_icon.png",
+        "score": 10
+      },
+      "Sanctum-demon_voice_4": {
+        "icon": "demon_icon.png",
+        "score": 10
+      },
+      "Sanctum-dog_snarl_1": {
+        "icon": "dog_bark_icon.png",
+        "score": 5
+      },
+      "Sanctum-dog_snarl_2": {
+        "icon": "dog_bark_icon.png",
+        "score": 5
+      },
+      "Sanctum-dog_snarl_3": {
+        "icon": "dog_bark_icon.png",
+        "score": 5
+      },
+      "Sanctum-door_close": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Sanctum-door_open": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Sanctum-fly_swarm_loop": {
+        "icon": "fly.png",
+        "score": 10
+      },
+      "Sanctum-footsteps_monks_loop": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "Sanctum-holy_wind_loop": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "Sanctum-music_benedictus_loop": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Sanctum-music_dies_irae_loop": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Sanctum-music_sanctus_agnus_loop": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "Sanctum-organ_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Sanctum-small_bells_loop": {
+        "icon": "bell_icon.png",
+        "score": 4
+      },
+      "Sanctum-timpani_tone_loop": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "Sanctum-tomb_door_close": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Sanctum-tomb_door_open": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "Sanctum-unholy_wind_loop": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      }
+    },
+    "starship": {
+      "action_music1": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "astro_droid_x4": {
+        "icon": "astro_droid_icon.png",
+        "score": 10
+      },
+      "computer1a": {
+        "icon": "computer_icon.png",
+        "score": 10
+      },
+      "doors_heavy_close": {
+        "icon": "garage_close_icon.png",
+        "score": 5
+      },
+      "doors_heavy_open": {
+        "icon": "door_open_icon.png",
+        "score": 7
+      },
+      "engine_drone1": {
+        "icon": "engine_icon.png",
+        "score": 10
+      },
+      "footsteps1": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "guard_droid_x4": {
+        "icon": "guard_droid_icon.png",
+        "score": 10
+      },
+      "helmet_breath": {
+        "icon": "helmet_icon.png",
+        "score": 10
+      },
+      "music2": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music3": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "reactor1": {
+        "icon": "reactor_icon.png",
+        "score": 10
+      },
+      "terminal_access1": {
+        "icon": "terminal_access_icon.png",
+        "score": 10
+      },
+      "tone_hi1": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "tone_hi2": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "tone_hi3": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "tone_low2": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "tone_melodic1": {
+        "icon": "bass_tone.png",
+        "score": 5
+      }
+    },
+    "steampunk": {
+      "accordion_music1": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "bookshop": {
+        "icon": "books_icon.png",
+        "score": 4
+      },
+      "electrical_arcing2": {
+        "icon": "electrical_icon.png",
+        "score": 10
+      },
+      "gears_high_lp": {
+        "icon": "gears_icon.png",
+        "score": 10
+      },
+      "metal_machine_1": {
+        "icon": "machine_icon.png",
+        "score": 10
+      },
+      "music_bells1": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "organ_music3": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "propeller": {
+        "icon": "propeller_icon.png",
+        "score": 10
+      },
+      "rain_on_window_lp": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "rain_street": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "scanner": {
+        "icon": "hand_scanner_icon.png",
+        "score": 5
+      },
+      "steam_machinery1": {
+        "icon": "steam.png",
+        "score": 10
+      },
+      "strong_wind2": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "tone2a": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "tone3": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "tone4": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "victorian_street": {
+        "icon": "street_icon.png",
+        "score": 10
+      },
+      "watch_sounds": {
+        "icon": "watch_icon.png",
+        "score": 10
+      }
+    },
+    "tavern": {
+      "fireplace_loop_c": {
+        "icon": "fireplace_icon.png",
+        "score": 10
+      },
+      "footsteps_x4": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "innkeeper_1_x4": {
+        "icon": "innkeeper_icon.png",
+        "score": 10
+      },
+      "innkeeper_2_x4": {
+        "icon": "innkeeper_icon.png",
+        "score": 10
+      },
+      "knife_sharpening": {
+        "icon": "knife_icon.png",
+        "score": 10
+      },
+      "laughter_b_x4": {
+        "icon": "laughter_icon.png",
+        "score": 10
+      },
+      "lute_music_1": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "lute_music_2": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "old_drunk_c_x4": {
+        "icon": "old_drunk_icon.png",
+        "score": 10
+      },
+      "rain_on_roofb": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "serving_stew": {
+        "icon": "stew_icon.png",
+        "score": 10
+      },
+      "snoring": {
+        "icon": "snoring_icon.png",
+        "score": 10
+      },
+      "tavern_door": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "tavern_door_wind": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "tavern_loop_lite_a": {
+        "icon": "tavern_sign_icon.png",
+        "score": 5
+      },
+      "wind_outside": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      }
+    },
+    "true_west": {
+      "campfire_loop": {
+        "icon": "campfire_icon.png",
+        "score": 10
+      },
+      "cards_deal": {
+        "icon": "playing_cards_icon.png",
+        "score": 5
+      },
+      "footsteps_spurs": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "harmonica_x4": {
+        "icon": "harmonica_icon.png",
+        "score": 10
+      },
+      "horse_galloping_loop": {
+        "icon": "horse_icon.png",
+        "score": 10
+      },
+      "horse_walk_loop": {
+        "icon": "horse_icon.png",
+        "score": 10
+      },
+      "night_wind_crickets": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "pistols_x4": {
+        "icon": "pistol_icon.png",
+        "score": 4
+      },
+      "ranch_loop": {
+        "icon": "ranch_icon.png",
+        "score": 10
+      },
+      "rolling_thunder_loop": {
+        "icon": "thunder_icon.png",
+        "score": 10
+      },
+      "saloon_piano_1": {
+        "icon": "saloon_doors_icon.png",
+        "score": 5
+      },
+      "saloon_piano_2": {
+        "icon": "saloon_doors_icon.png",
+        "score": 5
+      },
+      "saloon_voices_loop": {
+        "icon": "saloon_doors_icon.png",
+        "score": 5
+      },
+      "stagecoach_fast_loop": {
+        "icon": "stagecoach_icon.png",
+        "score": 10
+      },
+      "stagecoach_slow_loop": {
+        "icon": "stagecoach_icon.png",
+        "score": 10
+      },
+      "steam_train_loop": {
+        "icon": "steam.png",
+        "score": 10
+      },
+      "theme_music_loop_edit": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "train_whistle": {
+        "icon": "bosuns_whistle_icon.png",
+        "score": 5
+      },
+      "western_action_music2d_loop": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "whiskey_pour": {
+        "icon": "whiskey_icon.png",
+        "score": 10
+      },
+      "wind_plains_loop": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      }
+    },
+    "vampire": {
+      "automatic_fire_x4": {
+        "icon": "fire.png",
+        "score": 10
+      },
+      "bar_interior_lp": {
+        "icon": "bombardment_icon.png",
+        "score": 4
+      },
+      "cage_elevator": {
+        "icon": "elevator2_icon.png",
+        "score": 10
+      },
+      "car_driving_interior_lp": {
+        "icon": "car_icon.png",
+        "score": 10
+      },
+      "car_idle_lp": {
+        "icon": "car_icon.png",
+        "score": 10
+      },
+      "club_vip_room": {
+        "icon": "club_icon.png",
+        "score": 10
+      },
+      "door_break": {
+        "icon": "break_in_icon.png",
+        "score": 10
+      },
+      "harbor_docks": {
+        "icon": "harbor_icon.png",
+        "score": 10
+      },
+      "helicopter_hover": {
+        "icon": "helicopter_icon.png",
+        "score": 10
+      },
+      "helicopter_passby": {
+        "icon": "helicopter_icon.png",
+        "score": 10
+      },
+      "hotel_lounge": {
+        "icon": "hotel_lobby_icon.png",
+        "score": 5
+      },
+      "metro_tunnel_lp": {
+        "icon": "tunnel_icon.png",
+        "score": 10
+      },
+      "music2": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music3a": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music4_mournful": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music_club": {
+        "icon": "club_icon.png",
+        "score": 10
+      },
+      "stake_heart_x4": {
+        "icon": "heartbeat_icon.png",
+        "score": 4
+      },
+      "streets1_lp": {
+        "icon": "street_icon.png",
+        "score": 4
+      },
+      "tone3_lp": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "under_overpass_lp": {
+        "icon": "thunder_icon.png",
+        "score": 4
+      },
+      "urban_park_night": {
+        "icon": "park_icon.png",
+        "score": 10
+      },
+      "vampire_hiss2_x4": {
+        "icon": "vampire_header1a.png",
+        "score": 5
+      }
+    },
+    "wasteland": {
+      "burning_building3": {
+        "icon": "building_icon.png",
+        "score": 10
+      },
+      "debris_rubble": {
+        "icon": "rubble_icon.png",
+        "score": 10
+      },
+      "distant_explosions_x4": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "distant_gunfirex4": {
+        "icon": "distant_groans.png",
+        "score": 5
+      },
+      "dog_walking1": {
+        "icon": "dog_walk_icon.png",
+        "score": 7
+      },
+      "eerie_tone2a": {
+        "icon": "bass_tone.png",
+        "score": 5
+      },
+      "footsteps2": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "footsteps_lp1": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "gas_mask2": {
+        "icon": "gasmask_icon.png",
+        "score": 8
+      },
+      "low_drone1": {
+        "icon": "blowgun_icon.png",
+        "score": 4
+      },
+      "low_drone2": {
+        "icon": "blowgun_icon.png",
+        "score": 4
+      },
+      "metal_squeaks1": {
+        "icon": "metal_cart_icon.png",
+        "score": 5
+      },
+      "neon_flicker": {
+        "icon": "neon_icon.png",
+        "score": 10
+      },
+      "rain_on_shelter": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "shotgun_fire_4x": {
+        "icon": "fire.png",
+        "score": 10
+      },
+      "vultures": {
+        "icon": "vulture_icon.png",
+        "score": 4
+      },
+      "wind_desolate1": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wind_howl1": {
+        "icon": "wind_icon2.png",
+        "score": 10
+      },
+      "wood_chimes1a": {
+        "icon": "chimes_icon.png",
+        "score": 10
+      }
+    },
+    "weirder_things": {
+      "arcade2_lp": {
+        "icon": "arcade_icon.png",
+        "score": 10
+      },
+      "bicycles_lp": {
+        "icon": "bicycle_icon.png",
+        "score": 4
+      },
+      "creature_lurk_x4": {
+        "icon": "creature_approach_icon.png",
+        "score": 5
+      },
+      "electrical_glitches": {
+        "icon": "electrical_icon.png",
+        "score": 10
+      },
+      "facility_lp": {
+        "icon": "facility_icon.png",
+        "score": 10
+      },
+      "footsteps_facility": {
+        "icon": "facility_icon.png",
+        "score": 10
+      },
+      "garage_door_close": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "garage_door_open": {
+        "icon": "door_icon.png",
+        "score": 10
+      },
+      "isolation_tank_lp": {
+        "icon": "tank_tread_icon.png",
+        "score": 5
+      },
+      "metal_groan": {
+        "icon": "metal_cart_icon.png",
+        "score": 5
+      },
+      "music_tension_lp": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music_uplift_lp": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "other_side_lp": {
+        "icon": "otherside_icon.png",
+        "score": 8
+      },
+      "power_surge_x4": {
+        "icon": "power_icon.png",
+        "score": 10
+      },
+      "rain_inside": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "rain_outside": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "school_hall_lp": {
+        "icon": "school_icon.png",
+        "score": 10
+      },
+      "shopping_mall_lp": {
+        "icon": "mall_icon.png",
+        "score": 10
+      },
+      "shotgun_2x": {
+        "icon": "shotgun_icon.png",
+        "score": 10
+      },
+      "sprinkler": {
+        "icon": "sprinkler_icon.png",
+        "score": 10
+      },
+      "swimming_pool_lp": {
+        "icon": "swim_icon.png",
+        "score": 4
+      },
+      "thunder_clap": {
+        "icon": "thunder_icon.png",
+        "score": 10
+      }
+    },
+    "wuxia": {
+      "birdsong": {
+        "icon": "bird_icon.png",
+        "score": 4
+      },
+      "destruction_x4": {
+        "icon": "destruction_icon.png",
+        "score": 10
+      },
+      "fight_yells_male": {
+        "icon": "sword_fight_icon.png",
+        "score": 5
+      },
+      "footsteps_wood": {
+        "icon": "huge_footsteps_icon.png",
+        "score": 5
+      },
+      "hand_to_hand_a": {
+        "icon": "hand_gun_icon.png",
+        "score": 10
+      },
+      "horse_gallop": {
+        "icon": "horse_icon.png",
+        "score": 10
+      },
+      "market": {
+        "icon": "market_icon.png",
+        "score": 10
+      },
+      "music_calm_lp": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music_drums": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "music_sad_lp": {
+        "icon": "music.png",
+        "score": 10
+      },
+      "pour_tea": {
+        "icon": "steam.png",
+        "score": 4
+      },
+      "rain_lp": {
+        "icon": "rain_icon.png",
+        "score": 10
+      },
+      "stick_fight": {
+        "icon": "sword_fight_icon.png",
+        "score": 5
+      },
+      "sword_fight1a": {
+        "icon": "sword_fight_icon.png",
+        "score": 10
+      },
+      "thunder": {
+        "icon": "thunder_icon.png",
+        "score": 10
+      },
+      "water_breeze": {
+        "icon": "water.png",
+        "score": 10
+      }
+    }
+  }
+}

@@ -279,6 +279,24 @@ h1 {
   box-shadow: 0 0 0 2px rgba(202, 157, 88, 0.28), var(--shadow);
 }
 
+/* ── Drag-and-drop indicators ── */
+.slot-tile.drag-insert-before {
+  box-shadow: inset 5px 0 0 0 rgba(49, 182, 154, 0.85), var(--shadow);
+}
+.slot-tile.drag-insert-after {
+  box-shadow: inset -5px 0 0 0 rgba(49, 182, 154, 0.85), var(--shadow);
+}
+.group-slots.drag-active,
+.ungrouped-slots.drag-active {
+  outline: 2px dashed rgba(49, 182, 154, 0.55);
+  outline-offset: 2px;
+  border-radius: 12px;
+}
+.group-slots.drag-active:only-child {
+  min-height: 60px;
+  background: rgba(49, 182, 154, 0.05);
+}
+
 .slot-progress-fill {
   position: absolute;
   inset: 0;

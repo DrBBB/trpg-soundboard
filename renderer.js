@@ -143,7 +143,7 @@ async function renameGroup(groupId) {
   }
   group.name = name;
   await saveConfig();
-  setStatus("分组已重命名为「" + trimmed + "」。");
+  setStatus("分组已重命名为「" + name + "」。");
 }
 
 async function toggleGroupCollapse(groupId) {
@@ -500,7 +500,7 @@ async function deleteSlot(slotId) {
   setStatus("已删除按钮。");
 }
 
-async function swapSlots(dragSlotId, targetSlotId) {
+async function swapSlotsInGroup(dragSlotId, targetSlotId) {
   if (!dragSlotId || !targetSlotId || dragSlotId === targetSlotId) return;
 
   var dragIdx = config.slots.findIndex(function (s) { return s.id === dragSlotId; });
@@ -523,35 +523,59 @@ async function swapSlots(dragSlotId, targetSlotId) {
   setStatus("已调换按钮位置。");
 }
 
-async function insertSlotAt(dragSlotId, groupId, insertIdx) {
-  if (!dragSlotId) return;
-
-  var fromIndex = config.slots.findIndex(function (s) { return s.id === dragSlotId; });
+async function moveSlot(slotId, targetGroupId, targetIndex) {
+  if (!slotId) return;
+  var fromIndex = config.slots.findIndex(function (s) { return s.id === slotId; });
   if (fromIndex < 0) return;
-
   var movedSlot = config.slots.splice(fromIndex, 1)[0];
-  movedSlot.groupId = groupId;
-
-  // Find slots in the target group (after removal)
-  var groupSlots = config.slots.filter(function (s) { return s.groupId === groupId; });
-
-  if (insertIdx >= groupSlots.length) {
-    // Append at end of group
-    if (groupSlots.length > 0) {
-      var lastIdx = config.slots.findIndex(function (s) { return s.id === groupSlots[groupSlots.length - 1].id; });
-      config.slots.splice(lastIdx + 1, 0, movedSlot);
-    } else {
-      config.slots.push(movedSlot);
-    }
-  } else {
-    // Insert before the slot at insertIdx
-    var refSlot = groupSlots[insertIdx];
-    var refIdx = config.slots.findIndex(function (s) { return s.id === refSlot.id; });
-    config.slots.splice(refIdx, 0, movedSlot);
+  movedSlot.groupId = targetGroupId;
+  var groupSlotIndices = [];
+  for (var i = 0; i < config.slots.length; i++) {
+    if (config.slots[i].groupId === targetGroupId) groupSlotIndices.push(i);
   }
-
+  var globalInsertIdx;
+  if (targetIndex >= groupSlotIndices.length) {
+    if (groupSlotIndices.length > 0) globalInsertIdx = groupSlotIndices[groupSlotIndices.length - 1] + 1;
+    else globalInsertIdx = config.slots.length;
+  } else {
+    globalInsertIdx = groupSlotIndices[targetIndex];
+  }
+  config.slots.splice(globalInsertIdx, 0, movedSlot);
   await saveConfig();
-  setStatus(groupId === null ? "已将按钮移出分组。" : "已将按钮移入分组。");
+  if (movedSlot.groupId === null) {
+    setStatus("已将按钮移出分组。");
+  } else {
+    var group = config.groups.find(function (g) { return g.id === targetGroupId; });
+    setStatus("已将按钮移入" + (group ? "「" + group.name + "」" : "分组") + "。");
+  }
+}
+
+
+// ── Geometry helpers for drag-and-drop ──
+
+function isCursorBeforeTile(clientX, clientY, rect) {
+  var cx = rect.left + rect.width / 2;
+  var cy = rect.top + rect.height / 2;
+  var dy = (clientY - cy) / (rect.height / 2);
+  if (dy < -0.35) return true;
+  if (dy > 0.35) return false;
+  return clientX < cx;
+}
+
+function getInsertIndex(tiles, clientX, clientY) {
+  for (var i = 0; i < tiles.length; i++) {
+    if (isCursorBeforeTile(clientX, clientY, tiles[i].getBoundingClientRect())) return i;
+  }
+  return tiles.length;
+}
+
+function applyInsertIndicator(tiles, insertIdx) {
+  tiles.forEach(function (t) {
+    t.classList.remove("drag-insert-before", "drag-insert-after");
+  });
+  if (tiles.length === 0) return;
+  if (insertIdx > 0) tiles[insertIdx - 1].classList.add("drag-insert-after");
+  if (insertIdx < tiles.length) tiles[insertIdx].classList.add("drag-insert-before");
 }
 
 function setupNameMarquee(tile, track) {
@@ -722,10 +746,50 @@ function attachPressHandlers(tile, slot) {
   });
 }
 
+
+function setupContainerDropZone(containerEl, groupId) {
+  if (containerEl.dataset.dropZoneReady === "1") return;
+  containerEl.dataset.dropZoneReady = "1";
+
+  containerEl.addEventListener("dragover", function (event) {
+    if (!state.dragSlotId) return;
+    if (event.target.closest(".slot-tile")) return;
+    event.preventDefault();
+    if (event.dataTransfer) event.dataTransfer.dropEffect = "move";
+    containerEl.classList.add("drag-active");
+    var allTiles = Array.from(containerEl.querySelectorAll(".slot-tile"));
+    var tiles = allTiles.filter(function (t) { return t.dataset.slotId !== state.dragSlotId; });
+    var insertIdx = getInsertIndex(tiles, event.clientX, event.clientY);
+    applyInsertIndicator(tiles, insertIdx);
+  });
+
+  containerEl.addEventListener("dragleave", function (event) {
+    if (!containerEl.contains(event.relatedTarget)) {
+      containerEl.classList.remove("drag-active");
+      containerEl.querySelectorAll(".slot-tile.drag-insert-before, .slot-tile.drag-insert-after")
+        .forEach(function (t) { t.classList.remove("drag-insert-before", "drag-insert-after"); });
+    }
+  });
+
+  containerEl.addEventListener("drop", async function (event) {
+    if (event.target.closest(".slot-tile")) return;
+    event.preventDefault();
+    containerEl.classList.remove("drag-active");
+    containerEl.querySelectorAll(".slot-tile.drag-insert-before, .slot-tile.drag-insert-after")
+      .forEach(function (t) { t.classList.remove("drag-insert-before", "drag-insert-after"); });
+    var dragSlotId = state.dragSlotId || (event.dataTransfer ? event.dataTransfer.getData("text/plain") : "");
+    if (!dragSlotId) return;
+    var allTiles = Array.from(containerEl.querySelectorAll(".slot-tile"));
+    var tiles = allTiles.filter(function (t) { return t.dataset.slotId !== dragSlotId; });
+    var insertIdx = getInsertIndex(tiles, event.clientX, event.clientY);
+    await moveSlot(dragSlotId, groupId, insertIdx);
+  });
+}
+
 function attachDragHandlers(tile, slot) {
   tile.draggable = true;
 
-  tile.addEventListener("dragstart", (event) => {
+  tile.addEventListener("dragstart", function (event) {
     state.dragSlotId = slot.id;
     tile.classList.add("dragging");
     if (event.dataTransfer) {
@@ -734,54 +798,58 @@ function attachDragHandlers(tile, slot) {
     }
   });
 
-  tile.addEventListener("dragend", () => {
+  tile.addEventListener("dragend", function () {
     state.dragSlotId = null;
     tile.classList.remove("dragging");
-    document.querySelectorAll(".slot-tile.drag-target").forEach((node) => {
-      node.classList.remove("drag-target");
+    document.querySelectorAll(
+      ".slot-tile.drag-insert-before," +
+      ".slot-tile.drag-insert-after," +
+      ".group-slots.drag-active," +
+      ".ungrouped-slots.drag-active"
+    ).forEach(function (el) {
+      el.classList.remove("drag-insert-before", "drag-insert-after", "drag-active");
     });
   });
 
-  tile.addEventListener("dragover", (event) => {
-    if (!state.dragSlotId || state.dragSlotId === slot.id) {
-      return;
-    }
+  tile.addEventListener("dragover", function (event) {
+    if (!state.dragSlotId || state.dragSlotId === slot.id) return;
     event.preventDefault();
-    if (event.dataTransfer) {
-      event.dataTransfer.dropEffect = "move";
-    }
-    tile.classList.add("drag-target");
+    if (event.dataTransfer) event.dataTransfer.dropEffect = "move";
+    var container = tile.parentElement;
+    var allTiles = Array.from(container.querySelectorAll(".slot-tile"));
+    var tiles = allTiles.filter(function (t) { return t.dataset.slotId !== state.dragSlotId; });
+    var tileIdx = tiles.indexOf(tile);
+    if (tileIdx < 0) return;
+    var rect = tile.getBoundingClientRect();
+    var insertIdx = isCursorBeforeTile(event.clientX, event.clientY, rect) ? tileIdx : tileIdx + 1;
+    applyInsertIndicator(tiles, insertIdx);
   });
 
-  tile.addEventListener("dragleave", () => {
-    tile.classList.remove("drag-target");
+  tile.addEventListener("dragleave", function (event) {
+    if (!tile.contains(event.relatedTarget)) {
+      var container = tile.parentElement;
+      container.querySelectorAll(".slot-tile.drag-insert-before, .slot-tile.drag-insert-after")
+        .forEach(function (t) { t.classList.remove("drag-insert-before", "drag-insert-after"); });
+    }
   });
 
-  tile.addEventListener("drop", async (event) => {
+  tile.addEventListener("drop", async function (event) {
     event.preventDefault();
-    tile.classList.remove("drag-target");
+    var container = tile.parentElement;
+    container.querySelectorAll(".slot-tile.drag-insert-before, .slot-tile.drag-insert-after")
+      .forEach(function (t) { t.classList.remove("drag-insert-before", "drag-insert-after"); });
     var dragSlotId = state.dragSlotId || (event.dataTransfer ? event.dataTransfer.getData("text/plain") : "");
     if (!dragSlotId || dragSlotId === slot.id) return;
-
+    var allTiles = Array.from(container.querySelectorAll(".slot-tile"));
+    var tiles = allTiles.filter(function (t) { return t.dataset.slotId !== dragSlotId; });
+    var tileIdx = tiles.indexOf(tile);
+    if (tileIdx < 0) return;
     var rect = tile.getBoundingClientRect();
-    var cx = rect.left + rect.width / 2;
-    var cy = rect.top + rect.height / 2;
-    var dx = Math.abs(event.clientX - cx) / (rect.width / 2);
-    var dy = Math.abs(event.clientY - cy) / (rect.height / 2);
-
-    if (dx < 0.9 && dy < 0.9) {
-      // Center 81% → swap
-      await swapSlots(dragSlotId, slot.id);
-    } else {
-      // Edge → gap insert
-      var container = tile.parentElement;
-      var tiles = Array.from(container.querySelectorAll(".slot-tile"));
-      var tileIdx = tiles.indexOf(tile);
-      var insertIdx = event.clientY > cy ? tileIdx + 1 : tileIdx;
-      await insertSlotAt(dragSlotId, slot.groupId, insertIdx);
-    }
+    var insertIdx = isCursorBeforeTile(event.clientX, event.clientY, rect) ? tileIdx : tileIdx + 1;
+    await moveSlot(dragSlotId, slot.groupId, insertIdx);
   });
 }
+
 
 function attachVolumeHandler(tile, slot) {
   tile.addEventListener("contextmenu", async (event) => {

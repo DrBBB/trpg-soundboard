@@ -1,0 +1,4543 @@
+{
+  "_meta": {
+    "description": "TRPG SoundPad tag database",
+    "version": "1.0",
+    "total_pads": 32,
+    "total_files": 875
+  },
+  "age_of_sail": {
+    "setting": "Historical",
+    "files": {
+      "beat_to_quarters_b": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "below_decks2_b": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "broadsides_x4": {
+        "scene": "Battle_Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "cannon_single_4x_b": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "cheer_x4": {
+        "scene": "Voice",
+        "emotion": "Joyful",
+        "type": "Oneshot_Multi"
+      },
+      "deck_chatter_b": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "deck_fight_blades_b": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "destruction_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "drum_music_1c": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "drunken_sailor_edit": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "gale3a": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "hoist_sail_b": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "mast_creaks_b": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rain3_lp": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "repairs_b": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rope_creaks_b": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "sailors_active_b": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "sails_flapping_b": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "seawash_heavy2_b": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "seawash_light_b": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "seawash_med2_b": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "siren_song_lp": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "thunder2": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind_strong2_b": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "alien_starship": {
+    "setting": "SciFi_Space",
+    "files": {
+      "alien_action2": {
+        "scene": "Alien",
+        "emotion": "Tense",
+        "type": "Oneshot"
+      },
+      "alien_shriek_x4": {
+        "scene": "Alien",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "alien_storm2_lp": {
+        "scene": "Alien",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "background1_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "breath_sounds_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "computer_noises_lp": {
+        "scene": "Laboratory",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "creature_clicks_x4": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "creature_moving_lp": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "egg_sac_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "footsteps_bio_lp": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "footsteps_metal_lp": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "load_weapon": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "low_chatter_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "metallic_drips_lp": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "mid_tone_lp": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "organic_noise_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "shrieks_mult": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "skitter_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "string_tone1a": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Tone"
+      },
+      "tension1": {
+        "scene": "General",
+        "emotion": "Tense",
+        "type": "Oneshot"
+      },
+      "weapons_fire_x4": {
+        "scene": "Fire",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "wind_int_lp": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "wind_outside_lp": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      }
+    }
+  },
+  "ancient_greece": {
+    "setting": "Historical",
+    "files": {
+      "Ancient_Greece-agora_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-archers_draw": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-archers_loose": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-arrow_shot1": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-arrow_shot2": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-battle_close_loop": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-battle_distant_loop": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-chariot_race_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-city_gate_close": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-city_gate_open": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-countryside-day_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-cultist_cavern_loop": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-distant_sea_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-drum_tone_loop": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-dulcimer_tone_loop": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-flute_tone_loop": {
+        "scene": "Tavern_Music",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-forge_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-garden_fountains_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-goat_farm_loop": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-harbor_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-hawk_attack1": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-hawk_attack2": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-hilltop_night_loop": {
+        "scene": "General",
+        "emotion": "Dark",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-music_ares_commands": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "Ancient_Greece-music_dusk_over_delphi": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "Ancient_Greece-music_far_from_home": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "Ancient_Greece-phalanx_close_loop": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-phalanx_far_loop": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-shield_wall1": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-shield_wall2": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-shield_wall3": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-shield_wall4": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-spear_thrust1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-spear_thrust2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-spear_thrust3": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-spear_thrust4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-symposium_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-temple_of_apollo_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-town_square_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-training_loop": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-trireme_oars_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-trireme_sailing_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-vocal_tone_loop": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Ancient_Greece-warhammer1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-warhammer2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-warhammer3": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Ancient_Greece-warhammer4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "atlantis": {
+    "setting": "Historical",
+    "files": {
+      "Atlantis-air_filled_chamber_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-blade_trap": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-bronze_door_close": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-bronze_door_open": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-chain_winch": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-chest_open": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-creature_attack1": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-creature_attack2": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-creature_growl1": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-creature_growl2": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-crystalline_orb_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-drone_pulse_loop": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-dry_stone_room_loop": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-impact": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-kelp_forest_loop": {
+        "scene": "Forest",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-lava_flow_loop": {
+        "scene": "Fire",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-leviathan1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-leviathan2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-leviathan3": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-leviathan4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-lg_craft_engine_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-lg_hatch_close": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-lg_hatch_open": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-metal_groans_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-music_deep_drums": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "Atlantis-music_lost_city": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "Atlantis-music_the_depths": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "Atlantis-net_trap": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-percussive_tone_loop": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-projectile1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-projectile2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-rock_slide1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-rock_slide2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-sirens_song1": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-sirens_song2": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-sm_craft_engine_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-stone_door_close": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-stone_door_open": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-strings_tone_loop": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-swim_constant_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-underwater_deep_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-underwater_mid_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-underwater_top_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-vocal_tone_loop": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-water_portal": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-water_rising_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Atlantis-water_whoosh1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-water_whoosh2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Atlantis-waves_surface_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      }
+    }
+  },
+  "bleakwater_docks": {
+    "setting": "CoC_Horror",
+    "files": {
+      "Bleakwater_Docks-bar_door": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-bell_tone_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-bent_tone_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-brooding_wind_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-choral_tone_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-cleaning_fish_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-crows_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-dark_tone_loop": {
+        "scene": "Sea",
+        "emotion": "Dark",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-dark_wind_loop": {
+        "scene": "Sea",
+        "emotion": "Dark",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-diesel_engine_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-dock_creaks_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-dockside_bar_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-eerie_ambience_loop": {
+        "scene": "Sea",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-flies_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-foghorn": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-footsteps_ambient_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-man_fishing": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-misty_wind_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-rain_on_roof_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-rain_thunder_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-rats_1": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-rats_2": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-rope_1": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-rope_2": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-scrape_tone_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-seagulls_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-ship_bell": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-squeaky_sign_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-stacking_bottles": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-stacking_crates": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-warehouse_door_close": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-warehouse_door_open": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Bleakwater_Docks-warehouse_interior_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Bleakwater_Docks-water_lapping_loop": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      }
+    }
+  },
+  "castle_raven": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "bat_swarm_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "castle_bg1b_lp": {
+        "scene": "Castle",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "castle_bg2a_lp": {
+        "scene": "Castle",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "cauldron_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "chains2_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "distant_doors2_lp": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "drawbridge": {
+        "scene": "Spaceship",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "elevator": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps_retreat": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "heavy_door_close": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "horror_tone_hi": {
+        "scene": "Music_Tone",
+        "emotion": "Horror",
+        "type": "Tone"
+      },
+      "laughter2_4x": {
+        "scene": "Voice",
+        "emotion": "Joyful",
+        "type": "Oneshot"
+      },
+      "laughter_female2": {
+        "scene": "Tavern",
+        "emotion": "Joyful",
+        "type": "Oneshot"
+      },
+      "machinery": {
+        "scene": "Laboratory",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "metal_groans1_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "organ_close1a": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "organ_distant1b": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "quill_write_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "rope_creak_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "still_water_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "thunder_outside": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "trem_string_tone_lp": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "violin_melody": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wall_torch_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "walls_shudder2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "whispers2": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wood_groans2_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      }
+    }
+  },
+  "combat": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "attack_yell_x4a": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "bow_multi": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "earth_spell": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footstep_scuffle": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "grunts": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "horses_1": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "large_group": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "nature_spell": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "roars_4x": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "skirmish": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "sm_group": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "war_horn_1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "combat_future": {
+    "setting": "Cyberpunk",
+    "files": {
+      "distant_explosions": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "energy_weapons_bg1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "flame_thrower1": {
+        "scene": "Fire",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps_metal_floor": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "grenade1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "lg_group_bg1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "light_saber1a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "light_saber_4x": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "mech_sentry": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "missile_launch1c": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "ship_landing1a": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "ship_takeoff": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "small_group2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "soldier_footsteps1": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "strafe1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "weapons_bg1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      }
+    }
+  },
+  "combat_siege": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "ballista_2x": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "battering_ram_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "boiling_oil": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "bombardment": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "burning2_lp": {
+        "scene": "Fire",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "catapult_x2": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "cheers_x4a": {
+        "scene": "Voice",
+        "emotion": "Joyful",
+        "type": "Oneshot_Multi"
+      },
+      "choir_tone2_lp": {
+        "scene": "Temple",
+        "emotion": "Epic",
+        "type": "Ambience_Loop"
+      },
+      "close_combat_lp": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "defensive_shouts_x4a": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "distant_army_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "distant_combat_lp": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "explosion_x2": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "horses_gallop_lp": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "music1b": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music2": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music4a": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "offensive_shouts_x4a": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "portcullis": {
+        "scene": "Castle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "repairs": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "screams_x4a": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "siege_tower_fall2": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "siege_tower_move": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "soldiers_march_2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "soldiers_shouting_lp": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "standards_flapping": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "trebuchet_2x": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "trebuchet_dmg_x2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "wall_collapse": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "winch": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "cthulhu": {
+    "setting": "CoC_Horror",
+    "files": {
+      "Cthulhu-antiquarian_shop_loop": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-breeze_loop": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-clifftop_loop": {
+        "scene": "Mountain",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-creaking_floor_loop": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-docks_loop": {
+        "scene": "Sea",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-door_force_open": {
+        "scene": "Door",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-door_unlock": {
+        "scene": "Door",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-drawer_close": {
+        "scene": "Door",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-drawer_open": {
+        "scene": "Door",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-drum_tone_loop": {
+        "scene": "Music_Tone",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-foghorn": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-footsteps_docks_loop": {
+        "scene": "Sea",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-footsteps_wood_loop": {
+        "scene": "Movement",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-grandfather_clock_loop": {
+        "scene": "General",
+        "emotion": "Epic",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-grotto_loop": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-ground_quake": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-hospital_loop": {
+        "scene": "Asylum",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-investigators_office_loop": {
+        "scene": "Snow_Ice",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-lantern_loop": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-manor_house_loop": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-metal_bangs1": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-metal_bangs2": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-metal_cart": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-metal_tone_loop2": {
+        "scene": "Music_Tone",
+        "emotion": "Horror",
+        "type": "Tone"
+      },
+      "Cthulhu-music_awaken": {
+        "scene": "Music",
+        "emotion": "Horror",
+        "type": "Music"
+      },
+      "Cthulhu-music_disorient": {
+        "scene": "Music",
+        "emotion": "Horror",
+        "type": "Music"
+      },
+      "Cthulhu-music_trapped": {
+        "scene": "Music",
+        "emotion": "Horror",
+        "type": "Music"
+      },
+      "Cthulhu-old_phone": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-open_file": {
+        "scene": "Door",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-panic_tone_loop": {
+        "scene": "Music_Tone",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-pistol_shot": {
+        "scene": "Battle",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-rain_on_window_loop": {
+        "scene": "Weather_Rain",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-rise_chant_loop": {
+        "scene": "Voice",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-scrape_tone": {
+        "scene": "Music_Tone",
+        "emotion": "Horror",
+        "type": "Tone"
+      },
+      "Cthulhu-search1": {
+        "scene": "Sea",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-search2": {
+        "scene": "Sea",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-secret_bookcase": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-sleeping_old_one_loop": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-storm_outside_loop": {
+        "scene": "Weather_Storm",
+        "emotion": "Horror",
+        "type": "Ambience_Loop"
+      },
+      "Cthulhu-torch": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-warehouse_door": {
+        "scene": "Door",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "Cthulhu-whispers": {
+        "scene": "Voice",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "darkforest": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "campfire1_lp": {
+        "scene": "Campsite",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "cicada1_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "distant_drums1_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "dogs_barking": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "ethereal1_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "ethereal2_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "ethereal3_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "ethereal_dark1_lp": {
+        "scene": "General",
+        "emotion": "Dark",
+        "type": "Ambience_Loop"
+      },
+      "footsteps1_lp": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "hawk1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "horsecart1_lp": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "horses1_lp": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "music_eerie_flute1": {
+        "scene": "Tavern_Music",
+        "emotion": "Horror",
+        "type": "Music"
+      },
+      "music_forest_action1": {
+        "scene": "Forest",
+        "emotion": "Tense",
+        "type": "Music"
+      },
+      "music_forest_combat1": {
+        "scene": "Forest",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "owl2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rain1_lp": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "rain2_lp": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "rain3_lp": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "scared_horses2": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "snarl1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "spirit_breath1": {
+        "scene": "Undead",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "stream1_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "thunder1": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "thunder2": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "trees_fall1": {
+        "scene": "Forest",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "whispers1": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind1_lp": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "wind2_lp": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "wolf_howl1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "deep_six": {
+    "setting": "SciFi_Space",
+    "files": {
+      "action_music1a_lp": {
+        "scene": "Music",
+        "emotion": "Tense",
+        "type": "Ambience_Loop"
+      },
+      "bubbles_bg": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "bubbles_eq_lp": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "computer_typing2": {
+        "scene": "Laboratory",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "depth_charges_x3a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "drips3_lp": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "eerie_drone2": {
+        "scene": "Music_Tone",
+        "emotion": "Horror",
+        "type": "Tone"
+      },
+      "electrical_arcing2a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "electronics1_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "explosion_2x": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps_deckplates_lp": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "footsteps_splash_lp": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "hi_tone1": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Tone"
+      },
+      "metal_groans2b_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "metal_knock": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "metal_noises_verb2a_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "ominous_music1c": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "radio_music": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "respirator2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rushing_water2_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "stealth_music2a_lp": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "whale_song1": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "desert_planet": {
+    "setting": "SciFi_Space",
+    "files": {
+      "beast_of_burdenx3": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "birds_insects1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "boiling_sand": {
+        "scene": "Desert",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "call_to_prayer": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "cart_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "chants_lp2": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "cheers": {
+        "scene": "Voice",
+        "emotion": "Joyful",
+        "type": "Oneshot"
+      },
+      "distant_predators": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "duduk_tone_lp": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "feast_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "great_worm_attackx2": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "magic1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "market_voices2_lp": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "massive_stone_door": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "music1": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music2": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music3": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "oasis_water": {
+        "scene": "Desert",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "snake_pit_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "string_tone": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Tone"
+      },
+      "temple_bells": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "temple_interior": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind2": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind3b": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind_bluster2": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "dm_tools": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "1D20x3": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "castle_bg": {
+        "scene": "Castle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "city_bg": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "desert_bg": {
+        "scene": "Desert",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "dice_pool_x4": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "discovery": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "dungeon_bg": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "forest_bg": {
+        "scene": "Forest",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "hero_returns": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "journey_begins": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "jungle_bg": {
+        "scene": "Forest",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "long_rest": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "merry": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "mystery": {
+        "scene": "General",
+        "emotion": "Mystery",
+        "type": "Oneshot"
+      },
+      "new_wonders": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "not_alone": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "revelation": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "safe_haven": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tavern_bg": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "village_bg": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "dungeon": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "bats": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "bubbles": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "combat1": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "creature1": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "door_close": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "door_open": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "drips1_lp": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "drums2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "dungeon_bg1": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "dungeon_bg2": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "flies": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "hi_tone_1": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Tone"
+      },
+      "hi_tone_2": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Tone"
+      },
+      "low_tone1": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Tone"
+      },
+      "music_1": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music_3a": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "ooze": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rats": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "roar": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rumble": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "scrape1a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "screams": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "steam_release": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "stream": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone3": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "torches": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "film_noir": {
+    "setting": "CoC_Horror",
+    "files": {
+      "angry_crowd": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "cool_city": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "courtroom_background": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "footsteps_boots2": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps_heels2": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "make_drink": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "music_melancholy1a": {
+        "scene": "Music",
+        "emotion": "Sorrow",
+        "type": "Music"
+      },
+      "office_bg": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "on_subway": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "police_scanner_lp": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "rain_street": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "restaurant_background": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "search_desk": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "siren2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "sting_orchestral": {
+        "scene": "Sting",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "subway_platform": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "traffic1": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "traffic_wet": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "train_station_crowd": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "windshield_wipers": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "future_city": {
+    "setting": "Cyberpunk",
+    "files": {
+      "announcements2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "car_traffic1": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "club_music_insidea": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "club_music_outside": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "distant_traffic2b": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "dogs_barking": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "drone_chimes": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "drums1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "fan_blades2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps_city1": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "hi_synth1a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "japanese_obon_festival": {
+        "scene": "General",
+        "emotion": "Joyful",
+        "type": "Oneshot"
+      },
+      "large_ship_pass": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "lightning_strike_2x": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "low_strings1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "maglev_in": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "maglev_out": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "market_districta": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "med_strings1a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "metal_gate": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "police_car": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "protest": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rain2": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "single_car_pass": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "street_noises": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "traffic1a_less": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "transformer_electric": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "urban_rain": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind1a": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind_1a": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "hell_planet": {
+    "setting": "SciFi_Space",
+    "files": {
+      "bomb_minion_x2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "chain_blade1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "cutting_blade2a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "dark_wind1_lp": {
+        "scene": "Weather_Wind",
+        "emotion": "Dark",
+        "type": "Ambience_Loop"
+      },
+      "destruction1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "devil_voice2_x4": {
+        "scene": "Snow_Ice",
+        "emotion": "Horror",
+        "type": "Oneshot_Multi"
+      },
+      "distant_chaos_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "distant_crowds_lp": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "distant_demons_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "engine_2a_drive_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "engine_drive_a_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "engine_rev_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "explosion_x2": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "fireballs_incoming_x4": {
+        "scene": "Fire",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "ichor_pool_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "moto_bg_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "motorbike_1_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "music1a": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music5": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music_bass_riff_oz": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "pillar_of_skulls_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "portal1a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "river_of_blood_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "screamer": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tire_noise": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "turret_shot_x2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "war_drums2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wheeled_market_2a_lp": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "winged_demon2_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      }
+    }
+  },
+  "house_on_the_hill": {
+    "setting": "CoC_Horror",
+    "files": {
+      "bellpad1": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "bellpad2": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "children_laugh": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "clockchime": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "creepy_kidx4": {
+        "scene": "General",
+        "emotion": "Horror",
+        "type": "Oneshot"
+      },
+      "fireplace_loop_c": {
+        "scene": "Fire",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps2x": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps_limping": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "house_rattle_a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "music_box": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "party_voices": {
+        "scene": "Snow_Ice",
+        "emotion": "Joyful",
+        "type": "Oneshot"
+      },
+      "rain_outside": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "riser1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "scream_hit_ax4": {
+        "scene": "Sting",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "thunder1": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "thunder2": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "toy_trains": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "treble_tone1": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Tone"
+      },
+      "victrola1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "vortex": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wail": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "waltz": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "whispers2x": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind_outside": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "ice_planet": {
+    "setting": "SciFi_Space",
+    "files": {
+      "avalanche": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "choir3all_lp": {
+        "scene": "Temple",
+        "emotion": "Epic",
+        "type": "Ambience_Loop"
+      },
+      "coldfire_lp": {
+        "scene": "Fire",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "distant_howls": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "faerie_frost_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "frost_giant_footsteps": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "frost_spider_idle_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "horse_snow_canter": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "horse_snow_walk": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "humanoid_camp": {
+        "scene": "Campsite",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "ice_axe": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "ice_creaking_lp": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "ice_creaking_x4": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "lightning_pillars_lp": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "music1": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music2": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "roars_x2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "singing_crystal_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "snow_boulder_roll": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone1_lp": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "torch_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "whisper_wind": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind_howl": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind_tundra": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wolf_attack_x4": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "wolfpack_growl_lp": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      }
+    }
+  },
+  "jungle_planet": {
+    "setting": "SciFi_Space",
+    "files": {
+      "birds1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "birds2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "chants1": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "chants2_lp": {
+        "scene": "Voice",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "close_growls2_x4": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "creature_approach": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "didgeridoo_tone_lp": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "distant_howls_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "distant_vocals_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "flute_tone2_lp": {
+        "scene": "Tavern_Music",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "footsteps_jungle": {
+        "scene": "Forest",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "howlers": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "huge_footsteps": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "insects1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "lg_waterfall": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "low_breath": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "mosquito": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "music2a": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music3a": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "ominous_wind": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "primates": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "primates_near_lp2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "raindrops": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "sm_drum_lp2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "torch": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "waterfall": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind1": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "monsters": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "beholder_attack_x4": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "construct_attack_3x": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "construct_idle_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "dragon_attack_x3": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "dragon_idle_lp": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "elemental_attack_x3": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "elemental_idle_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "goblin_attack_x4": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "goblins_idle_lp": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "humanoid_attack_x4": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "large_beast_attack": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "large_beast_idle": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "medium_beast_attack_a3x": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "medium_beast_idle_lp": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "ooze_idle": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rock_monster_attack_a_3x": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rock_monster_idle_lp": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "rust_monster_attack_x3": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "rust_monster_idle_lp": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "skeleton_attack_b_x4": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "skeleton_idle2": {
+        "scene": "Undead",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "small_beast_idle_lp": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "spider_attack_x3": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "spider_idle_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "swarm_idle": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "undead_attack_a_x3": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "undead_idle_a": {
+        "scene": "Undead",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "olde_towne": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "birdsong2": {
+        "scene": "Forest",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "blacksmith1": {
+        "scene": "General",
+        "emotion": "Dark",
+        "type": "Oneshot"
+      },
+      "boat_in_harbor2": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "breeze": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "celtic_harp_choir2": {
+        "scene": "Temple",
+        "emotion": "Epic",
+        "type": "Oneshot"
+      },
+      "chickens1a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "church_bell": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "city_action_cue": {
+        "scene": "City",
+        "emotion": "Tense",
+        "type": "Oneshot"
+      },
+      "city_wonder_cue_a": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "construction": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "cows1a": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "crickets2": {
+        "scene": "Forest",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "crowd_cheer2": {
+        "scene": "City",
+        "emotion": "Joyful",
+        "type": "Oneshot"
+      },
+      "dogs_barking": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "dragon2": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "dragon_away": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "fanfare1": {
+        "scene": "General",
+        "emotion": "Epic",
+        "type": "Oneshot"
+      },
+      "flag_wind": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "foot_traffic": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "fountain2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "gate": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "horse_carts": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "horse_traffic2": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "hurdy_gurdy2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "lg_group_voices_a": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rain1_lp": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "sm_group_voices_1a": {
+        "scene": "Snow_Ice",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "thunder1": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone2": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone3": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "vendors2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind_1a": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "sanctum": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "Sanctum-babtistery_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-bass_tone_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-belfry_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-brazier_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-brimstone_pool_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-busy_atmos_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-catacombs_loop": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-chant_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-choir_tone_loop": {
+        "scene": "Temple",
+        "emotion": "Epic",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-church_bell_peal_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-church_bell_single": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-crow_1": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-crow_2": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-cultists_prayer_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-demon_voice_1": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-demon_voice_2": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-demon_voice_3": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-demon_voice_4": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-dog_snarl_1": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-dog_snarl_2": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-dog_snarl_3": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-door_close": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-door_open": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-empty_atmos_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-fly_swarm_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-footsteps_monks_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-holy_wind_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-hushed_atmos_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-music_benedictus_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-music_dies_irae_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-music_sanctus_agnus_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-organ_tone_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-ossuary_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-pigeons": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-scriptorium_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-small_bells_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-timpani_tone_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-tomb_door_close": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-tomb_door_open": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-tremor_1": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-tremor_2": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "Sanctum-unholy_wind_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "Sanctum-whispers_loop": {
+        "scene": "Temple",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      }
+    }
+  },
+  "starship": {
+    "setting": "SciFi_Space",
+    "files": {
+      "action_music1": {
+        "scene": "Music",
+        "emotion": "Tense",
+        "type": "Music"
+      },
+      "astro_droid_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "computer1a": {
+        "scene": "Laboratory",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "doors_heavy_close": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "doors_heavy_open": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "engine_drone1": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Tone"
+      },
+      "footsteps1": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "guard_droid_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "helmet_breath": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "loading_bay1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "lower_deck": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "music2": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music3": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "reactor1": {
+        "scene": "Laboratory",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "terminal_access1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone_hi1": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone_hi2": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone_hi3": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone_low2": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone_melodic1": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "upper_deck": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "steampunk": {
+    "setting": "SciFi_Space",
+    "files": {
+      "accordion_music1": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "bookshop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "bubbling_beakers": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "creaking_wood": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "electrical_arcing2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "gears_high_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "hollow_bg_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "metal_machine_1": {
+        "scene": "Laboratory",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "music_bells1": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "organ_music3": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "propeller": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rain_on_window_lp": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "rain_street": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "scanner": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "steam_machinery1": {
+        "scene": "Laboratory",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "strong_wind2": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone2a": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone3": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tone4": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "victorian_street": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "watch_sounds": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "tavern": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "background_walla1b": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "boos": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "drinking_game": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "fireplace_loop_c": {
+        "scene": "Fire",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps_x4": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "glasses_stacking": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "innkeeper_1_x4": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "innkeeper_2_x4": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "knife_sharpening": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "laughter_b_x4": {
+        "scene": "Voice",
+        "emotion": "Joyful",
+        "type": "Oneshot_Multi"
+      },
+      "lute_ballad": {
+        "scene": "Tavern_Music",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "lute_music_1": {
+        "scene": "Tavern_Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "lute_music_2": {
+        "scene": "Tavern_Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "old_drunk_c_x4": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "psst": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rain_on_roofb": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "serving_stew": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "snoring": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tavern_door": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tavern_door_wind": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tavern_loop_lite_a": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind_outside": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  },
+  "true_west": {
+    "setting": "Historical",
+    "files": {
+      "bartender_1a_x4": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "campfire_loop": {
+        "scene": "Campsite",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "cards_deal": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "coyote": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps_spurs": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "gunfight": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "harmonica_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "horse_galloping_loop": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "horse_walk_loop": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "night_wind_crickets": {
+        "scene": "Forest",
+        "emotion": "Dark",
+        "type": "Oneshot"
+      },
+      "pistols_x4": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "ranch_loop": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "rolling_thunder_loop": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "saloon_piano_1": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "saloon_piano_2": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "saloon_voices_loop": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "sherrif_1_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "stagecoach_fast_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "stagecoach_slow_loop": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "steam_train_loop": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "theme_music_loop_edit": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "train_whistle": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "western_action_music2d_loop": {
+        "scene": "Music",
+        "emotion": "Tense",
+        "type": "Ambience_Loop"
+      },
+      "whiskey_pour": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind_plains_loop": {
+        "scene": "Plains",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      }
+    }
+  },
+  "vampire": {
+    "setting": "CoC_Horror",
+    "files": {
+      "automatic_fire_x4": {
+        "scene": "Fire",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "bar_interior_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "bite_x2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "cage_elevator": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "car_driving_interior_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "car_idle_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "club_vip_room": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "door_break": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "elevated_rail_pass": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "harbor_docks": {
+        "scene": "Sea",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "helicopter_hover": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "helicopter_passby": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "highrise_rooftop": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "hotel_lounge": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "immolation_x2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "metro_tunnel_lp": {
+        "scene": "Dungeon",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "music2": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music3a": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music4_mournful": {
+        "scene": "Music",
+        "emotion": "Sorrow",
+        "type": "Music"
+      },
+      "music_club": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "stake_heart_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "streets1_lp": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "tone3_lp": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "under_overpass_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "urban_park_night": {
+        "scene": "City",
+        "emotion": "Dark",
+        "type": "Oneshot"
+      },
+      "vampire_hiss2_x4": {
+        "scene": "Undead",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      }
+    }
+  },
+  "wasteland": {
+    "setting": "D&D_Fantasy",
+    "files": {
+      "burning_building3": {
+        "scene": "Fire",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "debris_rubble": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "distant_explosions_x4": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "distant_gunfirex4": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "dog_walking1": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "eerie_tone2a": {
+        "scene": "Music_Tone",
+        "emotion": "Horror",
+        "type": "Tone"
+      },
+      "footsteps2": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps_lp1": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "gas_mask2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "geiger_2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "geiger_3": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "low_drone1": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Tone"
+      },
+      "low_drone2": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Tone"
+      },
+      "metal_squeaks1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "neon_flicker": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rain_on_shelter": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "shotgun_fire_4x": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "vultures": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wind_desolate1": {
+        "scene": "Weather_Wind",
+        "emotion": "Sorrow",
+        "type": "Oneshot"
+      },
+      "wind_howl1": {
+        "scene": "Weather_Wind",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "wood_chimes1a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "zombies_x4": {
+        "scene": "Undead",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      }
+    }
+  },
+  "weirder_things": {
+    "setting": "Universal",
+    "files": {
+      "arcade2_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "bicycles_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "braam2b_short": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "creature_lurk_x4": {
+        "scene": "Creature",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "electrical_glitches": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "facility_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "footsteps_facility": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "garage_door_close": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "garage_door_open": {
+        "scene": "Door",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "hitone2": {
+        "scene": "Music_Tone",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "isolation_tank_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "metal_groan": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "mind_blast_x2": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "moody1_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "music_tension_lp": {
+        "scene": "Music",
+        "emotion": "Tense",
+        "type": "Ambience_Loop"
+      },
+      "music_uplift_lp": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "neighborhood_day_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "neighborhood_night_lp": {
+        "scene": "General",
+        "emotion": "Dark",
+        "type": "Ambience_Loop"
+      },
+      "other_side_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "power_surge_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "rain_inside": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rain_outside": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "risers_x4a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "roars_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "school_hall_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "shopping_mall_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "shotgun_2x": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "sprinkler": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "suit_breath": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "swimming_pool_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "thunder_clap": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "tv_static": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "weirder_things_3c_lp": {
+        "scene": "General",
+        "emotion": "Mystery",
+        "type": "Ambience_Loop"
+      }
+    }
+  },
+  "wuxia": {
+    "setting": "Wuxia",
+    "files": {
+      "birdsong": {
+        "scene": "Forest",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "breeze": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "cloth_banners_lp": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "destruction_x4": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot_Multi"
+      },
+      "fight_yells_male": {
+        "scene": "Tavern",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "footsteps_wood": {
+        "scene": "Movement",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "hand_to_hand_a": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "horse_gallop": {
+        "scene": "Rural",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "market": {
+        "scene": "City",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "music_calm_lp": {
+        "scene": "Music",
+        "emotion": "Peaceful",
+        "type": "Ambience_Loop"
+      },
+      "music_drums": {
+        "scene": "Music",
+        "emotion": "Neutral",
+        "type": "Music"
+      },
+      "music_sad_lp": {
+        "scene": "Music",
+        "emotion": "Sorrow",
+        "type": "Ambience_Loop"
+      },
+      "pour_tea": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "rain_lp": {
+        "scene": "Weather_Rain",
+        "emotion": "Neutral",
+        "type": "Ambience_Loop"
+      },
+      "scuffle1": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "stick_fight": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "sword_fight1a": {
+        "scene": "Battle",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "thunder": {
+        "scene": "Weather_Storm",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      },
+      "water_breeze": {
+        "scene": "General",
+        "emotion": "Neutral",
+        "type": "Oneshot"
+      }
+    }
+  }
+}

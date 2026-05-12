@@ -47,4 +47,7 @@ npm run pack:win       # 打包 Windows portable 版到 dist/
 | 2026-05-07 | 解决没法联网搜索的问题 | ✅ 已完成 — 诊断：DeepSeek API 不支持 WebSearch 的 tool_choice，Tavily MCP 有内部 bug。改用 WebFetch + DuckDuckGo |
 | 2026-05-07 | 删除 Tavily，禁用 WebSearch，只用 WebFetch + DuckDuckGo | ✅ 已完成 — 已从项目 settings.local.json 移除权限，全局 .claude.json 卸载 Tavily MCP Server |
 | 2026-05-11 | 更新版本号至 0.2.0，新增折叠分组功能 | ✅ 已完成 — 按钮可归入可折叠分组，自由拖拽跨组/未分组移动，分组默认名「分组N」可重命名 |
+| 2026-05-12 | 重写拖拽排序逻辑（纯插入模式） | ✅ 已完成 — 删除交换逻辑，统一纯插入排序。moveSlot 统一数据操作，setupContainerDropZone 统一间隙处理，CSS 插入指示器（边条+虚线轮廓）。修复 off-by-one、闪烁、X+Y 坐标判定 |
+| 2026-05-12 | 下载 TabletopAudio 全站音效 | ✅ 已完成 — 927 个 OGG 音效文件，33 个 SoundPad，含 Patreon 付费内容。446 个简笔画图标 + 33 个封面图 |
+| 2026-05-12 | 构建 AI 音效匹配系统 | ✅ 已完成 — sound_tags.json 标签数据库（Setting/Scene/Emotion/Type 四维标签），ai_matcher.js 自然语言匹配引擎，icon_sound_map.json 图标映射 |
 | 2026-05-07 | 统一所有音频响度（含用户链接音频） | ✅ 已完成 — 采样前 1MB 算 RMS，自动增益补偿。3 个内置音频预硬编码增益。零依赖。 |
